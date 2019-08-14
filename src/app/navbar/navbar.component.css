@@ -1,0 +1,18 @@
+p{
+    color: white
+}
+button{
+    color: white
+}
+
+.box {
+    border-radius: 25px;
+    border: 2px solid #000000;
+    padding: 20px; 
+    /* width: 80%;
+    height: 80%;  */
+  }
+h4{
+    text-align: center;
+    color: yellow
+}
