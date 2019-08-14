@@ -1,0 +1,15 @@
+.bg{
+    background-color: rgb(46, 46, 56);
+}
+
+.box {
+    border-radius: 25px;
+    border: 2px solid #000000;
+    padding: 20px; 
+    width: 70%;
+    height: 70%; 
+  }
+
+p{
+    color: white
+}
