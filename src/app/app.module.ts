@@ -14,6 +14,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { HomeComponent } from './home/home.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { HeaderComponent } from './header/header.component';
+import { BoxComponent } from './Modules/box/box.component';
 
 
 @NgModule({
@@ -22,7 +23,8 @@ import { HeaderComponent } from './header/header.component';
     HomeComponent,
     DashboardComponent,
     NavbarComponent,
-    HeaderComponent
+    HeaderComponent,
+    BoxComponent
   ],
   imports: [
     BrowserModule,

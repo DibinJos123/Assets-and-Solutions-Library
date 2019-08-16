@@ -3,6 +3,12 @@
     padding-bottom: 1rem;
     padding-top: 1rem;
 }
+
+.pv2{
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+
 .ph1{
     padding-left: 1rem;
     padding-right: 1rem
@@ -10,6 +16,10 @@
 
 .pr1{
     padding-right: 1rem
+}
+
+.pl2{
+    padding-left: 2rem
 }
 
 .mv1{
