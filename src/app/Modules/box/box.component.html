@@ -1,4 +1,4 @@
-<div class="box" >
+<div [@changeDivSize]=currentState class="box" [ngClass]="elevation" (mouseover)="changeStyle($event)" (mouseout)="changeStyle($event)" >
     <img src="../../../assets/RoundYellow.png" class="image"/>
     <img src="../../../assets/{{image}}" class="image2"/>
     <div >
