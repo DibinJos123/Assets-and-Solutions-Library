@@ -1,20 +1,31 @@
 <div style="overflow-x:hidden">
-    <nav class="navbar navbar-default navbar-static-top" style="margin-bottom:-1%;background-image:url('../../assets/digital.gif')" ba>
-        <div class="container">
-            <div class="row" style="padding:1%">
+    <nav  class="navbar navbar-default navbar-static-top" style="margin-bottom:-1%;background-image:url('../../assets/digital.gif');position:fixed;width:100%" >
+        <div [@changeHeader]=currentHeaderState class="container">
+            <div   class="row" style="padding:1%">
                 <img src="../../assets/whiteAsset -1.png" style="display:inline;width:5%;margin-left:-3%"/>
                 <h4 style="display:inline;;font-family: Arial, Helvetica, sans-serif;margin-left: 2%;
                 font-size: 164%;
                 top: 31%;
-                position: absolute;">Intelligent Automation as a Service</h4>
+                position: absolute;"><b>I</b>ntelligent <b>A</b>utomation as a <b>S</b>ervice</h4>
+            </div>
+        </div>
+
+        <div [@changeHeader2]=finalHeaderState class="container" style="height:58px;">
+            <div   class="row" style="padding:1%">
+                <img src="../../assets/whiteAsset -1.png" style="display:inline;width:3%;margin-left:-3%"/>
+                <h4 style="display:inline;;font-family: Arial, Helvetica, sans-serif;margin-left: 2%;
+                font-size: 196%;
+                top: 20%;
+                position: absolute;"><b>IA</b>aa<b>S</b></h4>
             </div>
         </div>
     </nav>
+
     <div class="container2">
         <div class="bg">
             <div class="row" style = "padding-bottom:5.2%" >
-                <div class="col-md-6" style="padding:4%" [@changeDivSize]=currentState >
-                    <p  style="font-size: xx-large;font-family: Arial, Helvetica, sans-serif">Intelligent Automation as a Service</p>
+                <div class="col-md-6" style="padding:4%;margin-top:5%" [@changeDivSize]=currentState >
+                    <!-- <p  style="font-size: xx-large;font-family: Arial, Helvetica, sans-serif">Intelligent Automation as a Service</p>
                     <p>Superior client technologies are needed to keep pace with the rapid speed of innovation across
                         service lines and industry sectors. EY must also maintain the highest standards of information
                         security,
@@ -29,16 +40,17 @@
                         provides service lines with an agile, fast-build and secure platform that can deliver better
                         client
                         solutions at a lower cost.
-                    </p>
+                    </p> -->
+                    <img src="../../assets/services.PNG" style="width:105%"/>
                 </div>
-                <div class="col-md-6"style="padding:4%" [@changeDivSize]=currentState>
-                    <img src="../../assets/bg2.JPG" width="70%" style="margin-left:20%"/>
+                <div class="col-md-6"style="padding:4%;margin-top:5%" [@changeDivSize]=currentState>
+                    <img src="../../assets/bg2.JPG" width="85%" style="margin-left:20%"/>
                 </div>
             </div>
         </div>
 
         <!-- Begin Yellow bar with button -->
-        <div style="background-color: rgb(255,230,0)">
+        <div [@changeDivSize]=currentState style="background-color: rgb(255,230,0)">
             <div style="text-align: center;padding-top: 1rem;padding-bottom: 1rem">
                 <button mat-button>Subscribe to our Newsletter!</button>
             </div>
