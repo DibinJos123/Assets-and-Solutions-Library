@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import { MatVideoModule } from 'mat-video';
 
 import { AppRoutingModule } from './app-routing/app-routing.module';
 import { AppComponent } from './app.component';
@@ -15,6 +16,10 @@ import { HomeComponent } from './home/home.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { HeaderComponent } from './header/header.component';
 import { BoxComponent } from './Modules/box/box.component';
+import { AssetDetailsComponent } from './asset-details/asset-details.component';
+import { EmailAutomationComponent } from './email-automation/email-automation.component';
+
+
 
 
 @NgModule({
@@ -24,7 +29,9 @@ import { BoxComponent } from './Modules/box/box.component';
     DashboardComponent,
     NavbarComponent,
     HeaderComponent,
-    BoxComponent
+    BoxComponent,
+    AssetDetailsComponent,
+    EmailAutomationComponent
   ],
   imports: [
     BrowserModule,
@@ -33,7 +40,8 @@ import { BoxComponent } from './Modules/box/box.component';
     MatButtonModule,
     MatGridListModule,
     MatListModule,
-    MatSidenavModule
+    MatSidenavModule,
+    MatVideoModule
   ],
   providers: [],
   bootstrap: [AppComponent]
