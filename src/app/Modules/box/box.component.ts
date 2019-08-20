@@ -1,4 +1,5 @@
 import { Component, Input } from '@angular/core';
+import { TruncateModule } from '@yellowspot/ng-truncate';
 import { trigger, state, style, animate, transition } from '@angular/animations';
 
 @Component({
@@ -21,11 +22,12 @@ export class BoxComponent {
   @Input() Data: string
   @Input() image: string
   @Input() title: string;
+  public limit: number = 160;
+  truncating = true;
 
   currentState:any='initial';
   elevation : string = ""
   constructor() { 
-    console.log("sdsdfsdfsd",this.image);
     this.transition();
   }
 
@@ -38,9 +40,10 @@ export class BoxComponent {
 
 changeStyle($event){
   this.elevation = $event.type == 'mouseover' ? 'shadow' : '';
-  console.log("The elevation is",this.elevation);
 }
-
+abc(){
+  this.truncating = false 
+}
 
 
 }

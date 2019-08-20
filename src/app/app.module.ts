@@ -3,6 +3,9 @@ import { NgModule } from '@angular/core';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { MatVideoModule } from 'mat-video';
 
+import { TruncateModule } from '@yellowspot/ng-truncate';
+
+
 import { AppRoutingModule } from './app-routing/app-routing.module';
 import { AppComponent } from './app.component';
 
@@ -35,6 +38,7 @@ import { EmailAutomationComponent } from './email-automation/email-automation.co
   ],
   imports: [
     BrowserModule,
+    TruncateModule,
     BrowserAnimationsModule,
     AppRoutingModule,
     MatButtonModule,
