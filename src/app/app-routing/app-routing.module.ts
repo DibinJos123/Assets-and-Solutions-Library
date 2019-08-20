@@ -4,6 +4,8 @@ import { HomeComponent} from '../home/home.component';
 import { DashboardComponent} from '../dashboard/dashboard.component'
 import { AssetDetailsComponent} from "../asset-details/asset-details.component";
 import { EmailAutomationComponent} from "../email-automation/email-automation.component";
+import { SslAssetComponent} from "../ssl-asset/ssl-asset.component";
+import { EmployeeHelpdeskComponent} from "../employee-helpdesk/employee-helpdesk.component";
 
 
 const routes: Routes = [
@@ -11,7 +13,9 @@ const routes: Routes = [
   { path:"home", component: HomeComponent },
   { path:"dashboard", component: DashboardComponent},
   { path:"asset/:id", component:AssetDetailsComponent },
-  { path:"Enesa", component:EmailAutomationComponent },
+  { path:"enesa", component:EmailAutomationComponent },
+  { path:"ssl", component:SslAssetComponent },
+  { path:"employeeHelpdesk", component:EmployeeHelpdeskComponent },
 
 ];
 
