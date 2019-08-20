@@ -2,6 +2,9 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 
+import { TruncateModule } from '@yellowspot/ng-truncate';
+
+
 import { AppRoutingModule } from './app-routing/app-routing.module';
 import { AppComponent } from './app.component';
 
@@ -28,6 +31,7 @@ import { BoxComponent } from './Modules/box/box.component';
   ],
   imports: [
     BrowserModule,
+    TruncateModule,
     BrowserAnimationsModule,
     AppRoutingModule,
     MatButtonModule,

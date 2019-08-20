@@ -1,8 +1,19 @@
-<div [@changeDivSize]=currentState class="box" [ngClass]="elevation" (mouseover)="changeStyle($event)" (mouseout)="changeStyle($event)" >
-    <img src="../../../assets/RoundYellow.png" class="image"/>
-    <img src="../../../assets/{{image}}" class="image2"/>
-    <div >
+<div [@changeDivSize]=currentState class="box" [ngClass]="elevation" (mouseover)="changeStyle($event)"
+    (mouseout)="changeStyle($event)">
+    <img src="../../../assets/RoundYellow.png" class="image" />
+    <img src="../../../assets/{{image}}" class="image2" />
+    <div>
         <p style="color: yellow; font-weight: bold; text-align: center"> {{title}}</p>
-        <p>{{Data}} </p>
+        <!-- <p>{{Data}} </p> -->
+        <div *ngIf="Data.length <= limit">{{Data}}</div>
+        <div *ngIf="truncating && Data.length > limit">
+            <p>{{Data | truncate : limit}}</p>
+            <p class="showMore" (click)="truncating = false">show more</p>
+            
+        </div>
+        <div *ngIf="!truncating && Data.length > limit">
+            <p>  {{Data}} </p>
+            <p class="showMore" (click)="truncating = true">show less</p>
+        </div>
     </div>
 </div>
