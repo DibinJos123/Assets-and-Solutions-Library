@@ -1,11 +1,11 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, OnChanges, SimpleChanges } from '@angular/core';
 
 @Component({
   selector: 'app-dashboard',
   templateUrl: './dashboard.component.html',
   styleUrls: ['./dashboard.component.css']
 })
-export class DashboardComponent implements OnInit {
+export class DashboardComponent implements OnInit,OnChanges {
 
   constructor() { }
 
@@ -72,6 +72,20 @@ export class DashboardComponent implements OnInit {
   survey, engage employees, receive their responses, and provide relevant insights over it using any BI tool. `;
 
   ngOnInit() {
+  }
+
+  group1ClickInfo: any;
+  group2ClickInfo: any;
+
+  getClickInfo(Value) {
+    console.log(Value)
+    this.group1ClickInfo = Value.Group1;
+    this.group2ClickInfo = Value.Group2
+    console.log(this.group1ClickInfo, this.group2ClickInfo)
+  }
+
+  ngOnChanges(changes: SimpleChanges) {
+
   }
 
 }

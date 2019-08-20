@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, EventEmitter, Output } from '@angular/core';
 
 @Component({
   selector: 'app-navbar',
@@ -6,6 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./navbar.component.css']
 })
 export class NavbarComponent implements OnInit {
+
+  @Output() clickInfo = new EventEmitter<any>();
+ 
+
 
   btnStyleGroup1: string[];
   btnStyleGroup2: string[];
@@ -28,6 +32,8 @@ export class NavbarComponent implements OnInit {
     }
     localStorage.setItem(this.key1, Value);
     this.btnStyleGroup1[Value -1] = 'btn-change';
+    let group2Value = parseInt(localStorage.getItem(this.key2),10);
+    this.clickInfo.emit({'Group1' : Value, 'Group2' :group2Value} )
   }
 
   public evaluateButtonGroup2(Value){
@@ -37,5 +43,7 @@ export class NavbarComponent implements OnInit {
     }
     localStorage.setItem(this.key2, Value);
     this.btnStyleGroup2[Value -1] = 'btn-change';
+    let group1Value = parseInt(localStorage.getItem(this.key1),10);
+    this.clickInfo.emit({'Group1' :group1Value, 'Group2' :Value} )
   }
 }

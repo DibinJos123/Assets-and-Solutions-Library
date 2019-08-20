@@ -41,9 +41,7 @@ export class BoxComponent {
 changeStyle($event){
   this.elevation = $event.type == 'mouseover' ? 'shadow' : '';
 }
-abc(){
-  this.truncating = false 
-}
+
 
 
 }
