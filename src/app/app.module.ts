@@ -21,6 +21,8 @@ import { HeaderComponent } from './header/header.component';
 import { BoxComponent } from './Modules/box/box.component';
 import { AssetDetailsComponent } from './asset-details/asset-details.component';
 import { EmailAutomationComponent } from './email-automation/email-automation.component';
+import { SslAssetComponent } from './ssl-asset/ssl-asset.component';
+import { EmployeeHelpdeskComponent } from './employee-helpdesk/employee-helpdesk.component';
 
 
 
@@ -34,7 +36,9 @@ import { EmailAutomationComponent } from './email-automation/email-automation.co
     HeaderComponent,
     BoxComponent,
     AssetDetailsComponent,
-    EmailAutomationComponent
+    EmailAutomationComponent,
+    SslAssetComponent,
+    EmployeeHelpdeskComponent
   ],
   imports: [
     BrowserModule,
