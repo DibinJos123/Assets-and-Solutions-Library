@@ -4,6 +4,7 @@
     padding: 4%; 
     width: 95%;
     height: 86%; 
+    position: relative;
     
   }
   p{
@@ -11,18 +12,18 @@
 }
 
 .image{
-    position: absolute;
-    top: -6%;
-    left: 0%;
-    width: 15%;
+    position: relative;
+    top: -22px;
+    left: -9%;
+    width: 22%;
 
 }
 
 .image2{
-    position: absolute;
-    top: 3%;
-    left: 3%;
-    width: 8%;
+    position: relative;
+    top: -21px;
+    left: -25%;
+    width: 12%;
 
 }
 
