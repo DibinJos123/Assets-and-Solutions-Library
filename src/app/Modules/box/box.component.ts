@@ -1,6 +1,7 @@
 import { Component, Input } from '@angular/core';
 import { TruncateModule } from '@yellowspot/ng-truncate';
 import { trigger, state, style, animate, transition } from '@angular/animations';
+import {Router} from "@angular/router";
 
 @Component({
   selector: 'app-box',
@@ -22,12 +23,13 @@ export class BoxComponent {
   @Input() Data: string
   @Input() image: string
   @Input() title: string;
+  @Input() urls: string;
   public limit: number = 160;
   truncating = true;
 
   currentState:any='initial';
   elevation : string = ""
-  constructor() { 
+  constructor(private router: Router) { 
     this.transition();
   }
 
@@ -42,6 +44,15 @@ changeStyle($event){
   this.elevation = $event.type == 'mouseover' ? 'shadow' : '';
 }
 
+
+goToAssetDetails()
+{
+  console.log("The URLS are",this.urls);
+  if(this.urls != "")
+  {
+    this.router.navigate([this.urls]);
+  }
+}
 
 
 }

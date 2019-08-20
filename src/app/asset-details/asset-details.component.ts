@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { trigger, state, style, animate, transition } from '@angular/animations';
+import {Router, ActivatedRoute, Params} from '@angular/router';
 
 @Component({
   selector: 'app-asset-details',
@@ -20,10 +21,14 @@ import { trigger, state, style, animate, transition } from '@angular/animations'
 export class AssetDetailsComponent implements OnInit {
 
   currentState : string = 'initial';
+  title:string;
 
-  constructor() { }
+  constructor(private activatedRoute: ActivatedRoute) { 
+   
+  }
 
   ngOnInit() {
+    this.title = this.activatedRoute.snapshot.paramMap.get('id');
     this.changeState();
   }
 

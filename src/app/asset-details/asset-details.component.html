@@ -6,7 +6,7 @@
                 <h3 style="display:inline;;font-family: Arial, Helvetica, sans-serif;margin-left: 2%;
                 font-size: 164%;
                 top: 31%;
-                position: absolute;"><b>KYC</b></h3>
+                position: absolute;"><b>{{title}}</b></h3>
             </div>
         </div>
 
@@ -28,6 +28,10 @@
             <img  [@changeDivSize]=currentState src = "../../assets/IndexSector.PNG" style="padding-top:5%;height:100%;width:100%" />
             </div>
 
-    
+            <button [routerLink] = "['/dashboard']" style = "float:right;position:fixed;bottom:2%;right:2%;background-color: rgb(255,230,0);color:black;border:1px solid black" _ngcontent-vqc-c21="" mat-fab="" class="mat-fab mat-accent">
+                <span style="color:black;font-size:22px"class="glyphicon glyphicon-step-backward"></span>
+                <div class="mat-button-ripple mat-ripple mat-button-ripple-round" matripple=""></div>
+                <div class="mat-button-focus-overlay"></div>
+            </button> 
 
     </div>
