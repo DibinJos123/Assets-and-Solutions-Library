@@ -75,6 +75,10 @@ export class DashboardComponent implements OnInit {
                   this.KPI_Dashboard,this.Employee_Helpdesk,this.Customized_Alert,
                   this.Invoice,this.ContractDigitization, this.Survey
   ]
+  public industry = ""
+  public function = ""
+  public industries = ['BFSI', 'Telecom', 'Retail', 'Information Technology', 'Healthcare']
+  public functions = ['Operations', 'Marketing & Sales', 'Finance', 'Human Resources', 'Information technology', 'Supply Chain','Legal']
   public r1data: []
   public r2data: []
   public r3data: []
@@ -100,9 +104,7 @@ export class DashboardComponent implements OnInit {
   ngOnInit() {
   }
 
-  arraySpliter(arr,arr1,arr2,arr3 ) {
-    console.log(arr2)
-    
+  arraySpliter(arr,arr1,arr2,arr3 ) {    
   this.r1data = []
   this.r2data = []
   this.r3data = []
@@ -158,10 +160,6 @@ export class DashboardComponent implements OnInit {
 
       this.r1urls = arr3.slice(0,arr.length)
     }
-    console.log(this.r1titles)
-    console.log(this.r2titles)
-
-    console.log(this.r3titles)
 
   }
 
@@ -176,7 +174,8 @@ export class DashboardComponent implements OnInit {
   group2ClickInfo: any;
 
   async getClickInfo(Value) {
-    console.log(Value)
+    this.industry = ""
+    this.function = ""
     this.group1ClickInfo = Value.Group1;
     this.group2ClickInfo = Value.Group2
     let visibleData = [...this.data]
@@ -185,24 +184,29 @@ export class DashboardComponent implements OnInit {
     let visibleUrls = [...this.urls]
     switch(this.group1ClickInfo ) {
       case 1: {
+        this.industry = this.industries[0];
         break;
       }
       case 2: {
+        this.industry = this.industries[1];
         await this.elementRemover(visibleData,visibleImages,visibleTitles,visibleUrls,2);
         break;
       }
       case 3: {
+        this.industry = this.industries[2];
         await this.elementRemover(visibleData,visibleImages,visibleTitles,visibleUrls,0);
         await this.elementRemover(visibleData,visibleImages,visibleTitles,visibleUrls,2);
         break;
         
       }
       case 4: {
+        this.industry = this.industries[3];
         await this.elementRemover(visibleData,visibleImages,visibleTitles,visibleUrls,0);
         await this.elementRemover(visibleData,visibleImages,visibleTitles,visibleUrls,2);
         break;
       }
       case 5: {
+        this.industry = this.industries[4];
         await this.elementRemover(visibleData,visibleImages,visibleTitles,visibleUrls,0);
         await this.elementRemover(visibleData,visibleImages,visibleTitles,visibleUrls,2);
 
@@ -212,12 +216,14 @@ export class DashboardComponent implements OnInit {
 
     switch(this.group2ClickInfo ) {
       case 1: {
+        this.function = this.functions[0];
         await this.elementRemover(visibleData,visibleImages,visibleTitles,visibleUrls,7);
         await this.elementRemover(visibleData,visibleImages,visibleTitles,visibleUrls,8);
         await this.elementRemover(visibleData,visibleImages,visibleTitles,visibleUrls,9);
         break;
       }
       case 2: {
+        this.function = this.functions[1];
         await this.elementRemover(visibleData,visibleImages,visibleTitles,visibleUrls,2);
         await this.elementRemover(visibleData,visibleImages,visibleTitles,visibleUrls,3);
         await this.elementRemover(visibleData,visibleImages,visibleTitles,visibleUrls,7);
@@ -226,6 +232,7 @@ export class DashboardComponent implements OnInit {
         break; 
       }
       case 3: {
+        this.function = this.functions[2];
         await this.elementRemover(visibleData,visibleImages,visibleTitles,visibleUrls,0);
         await this.elementRemover(visibleData,visibleImages,visibleTitles,visibleUrls,1);
         await this.elementRemover(visibleData,visibleImages,visibleTitles,visibleUrls,2);
@@ -233,6 +240,7 @@ export class DashboardComponent implements OnInit {
         break; 
       }
       case 4: {
+        this.function = this.functions[3];
         await this.elementRemover(visibleData,visibleImages,visibleTitles,visibleUrls,0);
         await this.elementRemover(visibleData,visibleImages,visibleTitles,visibleUrls,1);
         await this.elementRemover(visibleData,visibleImages,visibleTitles,visibleUrls,2);
@@ -241,6 +249,7 @@ export class DashboardComponent implements OnInit {
         break; 
       }
       case 5: {
+        this.function = this.functions[4];
         await this.elementRemover(visibleData,visibleImages,visibleTitles,visibleUrls,0);
         await this.elementRemover(visibleData,visibleImages,visibleTitles,visibleUrls,1);
         await this.elementRemover(visibleData,visibleImages,visibleTitles,visibleUrls,2);
@@ -252,6 +261,7 @@ export class DashboardComponent implements OnInit {
         
       }
       case 6: {
+        this.function = this.functions[5];
         await this.elementRemover(visibleData,visibleImages,visibleTitles,visibleUrls,0);
         await this.elementRemover(visibleData,visibleImages,visibleTitles,visibleUrls,1);
         await this.elementRemover(visibleData,visibleImages,visibleTitles,visibleUrls,2);
@@ -261,6 +271,7 @@ export class DashboardComponent implements OnInit {
         break; 
       }
       case 7: {
+        this.function = this.functions[6];
         await this.elementRemover(visibleData,visibleImages,visibleTitles,visibleUrls,0);
         await this.elementRemover(visibleData,visibleImages,visibleTitles,visibleUrls,1);
         await this.elementRemover(visibleData,visibleImages,visibleTitles,visibleUrls,2);
@@ -270,6 +281,8 @@ export class DashboardComponent implements OnInit {
         break; 
       }
     }
+    if(this.industry !="" && this.function != "" )
+      this.industry+=" - "
     visibleData = visibleData.filter(function (el) {
       return el != undefined;
     });
