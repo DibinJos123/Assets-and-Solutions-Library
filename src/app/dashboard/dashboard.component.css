@@ -16,3 +16,8 @@ p{
 mat-grid-tile{
     padding: 2rem
 }
+
+:host ::ng-deep .mat-drawer-inner-container
+{
+    overflow: hidden !important;
+}

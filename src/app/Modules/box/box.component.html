@@ -1,10 +1,10 @@
 <div [@changeDivSize]=currentState class="box" [ngClass]="elevation" (mouseover)="changeStyle($event)"
-    (mouseout)="changeStyle($event)" (click)="goToAssetDetails()">
+    (mouseout)="changeStyle($event)" style="position:relative;height: 272px;">
     
     <img src="../../../assets/RoundYellow.png" class="image" />
     <img src="../../../assets/{{image}}" class="image2" />
     <div>
-        <p style="color: yellow; font-weight: bold; text-align: center"> {{title}}</p>
+        <p style="color: rgb(255,230,0); font-weight: bold; text-align: center" (click)="goToAssetDetails()"> <a style="color:rgb(255,230,0)">{{title}}</a></p>
         <!-- <p>{{Data}} </p> -->
         <div *ngIf="Data.length <= limit">{{Data}}</div>
         <div *ngIf="truncating && Data.length > limit">
