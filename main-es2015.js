@@ -206,7 +206,7 @@ module.exports = "\n<nav _ngcontent-vyk-c12=\"\" class=\"navbar navbar-default n
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"mh1\">\r\n    <div class=\"mv1\">\r\n        <img src=\"./assets/Group0_1.png\" width=\"100%\" />\r\n    </div>\r\n\r\n    <div class=\"box\">\r\n        <mat-accordion >\r\n            <mat-expansion-panel>\r\n            <mat-expansion-panel-header>\r\n                <mat-panel-title>\r\n                        <h4>INDUSTRIES</h4>\r\n                </mat-panel-title>\r\n\r\n            </mat-expansion-panel-header>\r\n                                                                                                                                       \t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\r\n            <mat-action-list>\r\n                <button mat-button  (click)=\"evaluateButtonGroup1(1)\" [ngClass]=\"[btnStyleGroup1[0]]\" > <img src=\"./assets/Group1_1.png \" width=\"30px\" class=\"pr1\" /> Financial Services</button><br />\r\n                <button mat-button  (click)=\"evaluateButtonGroup1(2)\" [ngClass]=\"[btnStyleGroup1[1]]\" > <img src=\"./assets/Group1_2.png \" width=\"30px\" class=\"pr1\" />Technology, Media & Entertainment and Telecom</button><br />\r\n                <button mat-button  (click)=\"evaluateButtonGroup1(3)\" [ngClass]=\"[btnStyleGroup1[2]]\" > <img src=\"./assets/Group1_3.png \" width=\"30px\" class=\"pr1\" />Advanced Manufacturing & Mobility</button><br />\r\n                <button mat-button  (click)=\"evaluateButtonGroup1(4)\" [ngClass]=\"[btnStyleGroup1[3]]\" > <img src=\"./assets/Group1_4.png \" width=\"30px\" class=\"pr1\" />Consumer</button><br />\r\n                <button mat-button  (click)=\"evaluateButtonGroup1(5)\" [ngClass]=\"[btnStyleGroup1[4]]\"  class=\"mb2\"> <img src=\"./assets/Group1_5.png \" width=\"30px\" class=\"pr1\" />Energy</button><br />\r\n            </mat-action-list>\r\n            </mat-expansion-panel>\r\n        </mat-accordion>\r\n    </div>\r\n    <br />\r\n    <div class=\"box\" >\r\n        <mat-accordion >\r\n            <mat-expansion-panel>\r\n            <mat-expansion-panel-header>\r\n                <mat-panel-title>\r\n                    <h4> SECTORS</h4>\r\n                </mat-panel-title>\r\n\r\n            </mat-expansion-panel-header>\r\n            <!-- \t \t                                                                                                                   \t\t\t\t\t\t\t\t\t\tWater Utilities -->\r\n      \r\n            <mat-action-list>\r\n                <button mat-button (click)= \"evaluateButtonGroup2(1)\" [ngClass]=\"[btnStyleGroup2[0]]\" > <img src=\"./assets/Group1_6.png\" width=\"30px\" class=\"pr1\" />Consumer Banking</button><br />\r\n                <button mat-button (click)= \"evaluateButtonGroup2(2)\" [ngClass]=\"[btnStyleGroup2[1]]\" > <img src=\"./assets/Group1_7.png\" width=\"30px\" class=\"pr1\" />General Insurance</button><br />\r\n                <button mat-button (click)= \"evaluateButtonGroup2(3)\" [ngClass]=\"[btnStyleGroup2[2]]\" > <img src=\"./assets/Group1_8.png\" width=\"30px\" class=\"pr1\" />Individual life insurance</button><br />\r\n                <button mat-button (click)= \"evaluateButtonGroup2(4)\" [ngClass]=\"[btnStyleGroup2[3]]\" > <img src=\"./assets/Group1_9.png\" width=\"30px\" class=\"pr1\" />Mortgage Finance</button><br />\r\n                <button mat-button (click)= \"evaluateButtonGroup2(5)\" [ngClass]=\"[btnStyleGroup2[4]]\" > <img src=\"./assets/Group1_10.png\" width=\"30px\" class=\"pr1\" /> WAM-Pro </button><br />\r\n                <button mat-button (click)= \"evaluateButtonGroup2(6)\" [ngClass]=\"[btnStyleGroup2[5]]\" > <img src=\"./assets/Group1_11.png\" width=\"30px\" class=\"pr1\" /> Telecom </button><br />\r\n                <button mat-button (click)= \"evaluateButtonGroup2(7)\" [ngClass]=\"[btnStyleGroup2[6]]\" > <img src=\"./assets/Group1_6.png\" width=\"30px\" class=\"pr1\" /> Media & Entertainment </button><br />\r\n                <button mat-button (click)= \"evaluateButtonGroup2(8)\" [ngClass]=\"[btnStyleGroup2[7]]\" > <img src=\"./assets/Group1_7.png\" width=\"30px\" class=\"pr1\" /> Automotive Finance </button><br />\r\n                <button mat-button (click)= \"evaluateButtonGroup2(9)\" [ngClass]=\"[btnStyleGroup2[8]]\" > <img src=\"./assets/Group1_8.png\" width=\"30px\" class=\"pr1\" /> Automotive OEM </button><br />\r\n                <button mat-button (click)=\"evaluateButtonGroup2(10)\" [ngClass]=\"[btnStyleGroup2[9]]\" > <img src=\"./assets/Group1_9.png\" width=\"30px\" class=\"pr1\" /> Beverage </button><br />\r\n                <button mat-button (click)=\"evaluateButtonGroup2(11)\" [ngClass]=\"[btnStyleGroup2[10]]\" > <img src=\"./assets/Group1_10.png\" width=\"30px\" class=\"pr1\" /> Consumer Products </button><br />\r\n                <button mat-button (click)=\"evaluateButtonGroup2(12)\" [ngClass]=\"[btnStyleGroup2[11]]\" > <img src=\"./assets/Group1_11.png\" width=\"30px\" class=\"pr1\" /> Retail </button><br />\r\n                <button mat-button (click)=\"evaluateButtonGroup2(13)\" [ngClass]=\"[btnStyleGroup2[12]]\" > <img src=\"./assets/Group1_6.png\" width=\"30px\" class=\"pr1\" />Tobacco </button><br />\r\n                <button mat-button (click)=\"evaluateButtonGroup2(14)\" [ngClass]=\"[btnStyleGroup2[13]]\" > <img src=\"./assets/Group1_7.png\" width=\"30px\" class=\"pr1\" /> Chemicals </button><br />\r\n                <button mat-button (click)=\"evaluateButtonGroup2(15)\" [ngClass]=\"[btnStyleGroup2[14]]\" > <img src=\"./assets/Group1_8.png\" width=\"30px\" class=\"pr1\" />Mining & Metals </button><br />\r\n                <button mat-button (click)=\"evaluateButtonGroup2(16)\" [ngClass]=\"[btnStyleGroup2[15]]\" > <img src=\"./assets/Group1_9.png\" width=\"30px\" class=\"pr1\" /> Oil & Gas </button><br />\r\n                <button mat-button (click)=\"evaluateButtonGroup2(17)\" [ngClass]=\"[btnStyleGroup2[16]]\" > <img src=\"./assets/Group1_10.png\" width=\"30px\" class=\"pr1\" /> Oil Field Services </button><br />\r\n                <button mat-button (click)=\"evaluateButtonGroup2(18)\" [ngClass]=\"[btnStyleGroup2[17]]\" > <img src=\"./assets/Group1_11.png\" width=\"30px\" class=\"pr1\" /> Power & Utilities </button><br />\r\n                <button mat-button (click)=\"evaluateButtonGroup2(19)\" [ngClass]=\"[btnStyleGroup2[18]]\" class=\"mb2\"> <img src=\"./assets/Group1_12.png\" width=\"30px\" class=\"pr1\" />Water Utilities</button><br />\r\n            </mat-action-list>\r\n            </mat-expansion-panel>\r\n        </mat-accordion>\r\n    </div>\r\n\r\n    <br />\r\n\r\n    <div class=\"box\">\r\n        <mat-accordion >\r\n            <mat-expansion-panel>\r\n            <mat-expansion-panel-header>\r\n                <mat-panel-title>\r\n                    <h4>CAPABILITIES </h4>\r\n                </mat-panel-title>\r\n\r\n            </mat-expansion-panel-header>\r\n            \r\n            <mat-action-list>\r\n                <button mat-button  (click)=\"evaluateButtonGroup3(1)\" [ngClass]=\"[btnStyleGroup3[0]]\" > <img src=\"./assets/Group1_1.png \" width=\"30px\" class=\"pr1\" /> InDEx (Digitization)</button><br />\r\n                <button mat-button  (click)=\"evaluateButtonGroup3(2)\" [ngClass]=\"[btnStyleGroup3[1]]\" > <img src=\"./assets/Group1_2.png \" width=\"30px\" class=\"pr1\" />NLP</button><br />\r\n                <button mat-button  (click)=\"evaluateButtonGroup3(3)\" [ngClass]=\"[btnStyleGroup3[2]]\"  class=\"mb2\"> <img src=\"./assets/Group1_5.png \" width=\"30px\" class=\"pr1\" />Blockchain</button><br />\r\n            </mat-action-list>\r\n            </mat-expansion-panel>\r\n        </mat-accordion>\r\n    </div>\r\n\r\n    <br />\r\n\r\n    <div class=\"box\">\r\n        <mat-accordion >\r\n            <mat-expansion-panel>\r\n            <mat-expansion-panel-header>\r\n                <mat-panel-title>\r\n                    <h4>FUNCTIONS</h4>\r\n                </mat-panel-title>\r\n\r\n            </mat-expansion-panel-header>\r\n            \r\n            <mat-action-list>\r\n                <button mat-button  (click)=\"evaluateButtonGroup4(1)\" [ngClass]=\"[btnStyleGroup4[0]]\" > <img src=\"./assets/Group1_1.png \" width=\"30px\" class=\"pr1\" /> Blockchain</button><br />\r\n                <button mat-button  (click)=\"evaluateButtonGroup4(2)\" [ngClass]=\"[btnStyleGroup4[1]]\" > <img src=\"./assets/Group1_2.png \" width=\"30px\" class=\"pr1\" />Blockchain</button><br />\r\n                <button mat-button  (click)=\"evaluateButtonGroup4(3)\" [ngClass]=\"[btnStyleGroup4[2]]\" > <img src=\"./assets/Group1_3.png \" width=\"30px\" class=\"pr1\" />Blockchain</button><br />\r\n                <button mat-button  (click)=\"evaluateButtonGroup4(4)\" [ngClass]=\"[btnStyleGroup4[3]]\" > <img src=\"./assets/Group1_4.png \" width=\"30px\" class=\"pr1\" />Blockchain</button><br />\r\n                <button mat-button  (click)=\"evaluateButtonGroup4(5)\" [ngClass]=\"[btnStyleGroup4[4]]\"  class=\"mb2\"> <img src=\"./assets/Group1_5.png \" width=\"30px\" class=\"pr1\" />Blockchain</button><br />\r\n            </mat-action-list>\r\n            </mat-expansion-panel>\r\n        </mat-accordion>\r\n    </div>\r\n\r\n\r\n\r\n<!-- \r\n    <div class=\"box mv1\">\r\n        \r\n    </div> -->\r\n</div>"
+module.exports = "<div class=\"mh1\">\r\n    <div class=\"mv1\">\r\n        <img src=\"../../assets/Group0_1.png\" width=\"100%\" />\r\n    </div>\r\n\r\n    \r\n        <mat-accordion >\r\n                <div class=\"box\">\r\n            <mat-expansion-panel>\r\n            <mat-expansion-panel-header>\r\n                <mat-panel-title>\r\n                        <h4>INDUSTRIES</h4>\r\n                </mat-panel-title>\r\n\r\n            </mat-expansion-panel-header>\r\n                                                                                                                                       \t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\r\n            <mat-action-list>\r\n                <button mat-button  (click)=\"evaluateButtonGroup1(1)\" [ngClass]=\"[btnStyleGroup1[0]]\" > <img src=\"../../assets/Group1_1.png \" width=\"30px\" class=\"pr1\" /> Financial Services</button><br />\r\n                <button mat-button  (click)=\"evaluateButtonGroup1(2)\" [ngClass]=\"[btnStyleGroup1[1]]\" > <img src=\"../../assets/Group1_2.png \" width=\"30px\" class=\"pr1\" />Technology, Media & Entertainment and Telecom</button><br />\r\n                <button mat-button  (click)=\"evaluateButtonGroup1(3)\" [ngClass]=\"[btnStyleGroup1[2]]\" > <img src=\"../../assets/Group1_3.png \" width=\"30px\" class=\"pr1\" />Advanced Manufacturing & Mobility</button><br />\r\n                <button mat-button  (click)=\"evaluateButtonGroup1(4)\" [ngClass]=\"[btnStyleGroup1[3]]\" > <img src=\"../../assets/Group1_4.png \" width=\"30px\" class=\"pr1\" />Consumer</button><br />\r\n                <button mat-button  (click)=\"evaluateButtonGroup1(5)\" [ngClass]=\"[btnStyleGroup1[4]]\"  class=\"mb2\"> <img src=\"../../assets/Group1_5.png \" width=\"30px\" class=\"pr1\" />Energy</button><br />\r\n            </mat-action-list>\r\n            </mat-expansion-panel>\r\n    </div>\r\n    <br />\r\n    <div class=\"box\" >\r\n            <mat-expansion-panel>\r\n            <mat-expansion-panel-header>\r\n                <mat-panel-title>\r\n                    <h4> SECTORS</h4>\r\n                </mat-panel-title>\r\n\r\n            </mat-expansion-panel-header>\r\n            <!-- \t \t                                                                                                                   \t\t\t\t\t\t\t\t\t\tWater Utilities -->\r\n      \r\n            <mat-action-list>\r\n                <button mat-button (click)= \"evaluateButtonGroup2(1)\" [ngClass]=\"[btnStyleGroup2[0]]\" > <img src=\"../../assets/Group1_6.png\" width=\"30px\" class=\"pr1\" />Consumer Banking</button><br />\r\n                <button mat-button (click)= \"evaluateButtonGroup2(2)\" [ngClass]=\"[btnStyleGroup2[1]]\" > <img src=\"../../assets/Group1_7.png\" width=\"30px\" class=\"pr1\" />General Insurance</button><br />\r\n                <button mat-button (click)= \"evaluateButtonGroup2(3)\" [ngClass]=\"[btnStyleGroup2[2]]\" > <img src=\"../../assets/Group1_8.png\" width=\"30px\" class=\"pr1\" />Individual life insurance</button><br />\r\n                <button mat-button (click)= \"evaluateButtonGroup2(4)\" [ngClass]=\"[btnStyleGroup2[3]]\" > <img src=\"../../assets/Group1_9.png\" width=\"30px\" class=\"pr1\" />Mortgage Finance</button><br />\r\n                <button mat-button (click)= \"evaluateButtonGroup2(5)\" [ngClass]=\"[btnStyleGroup2[4]]\" > <img src=\"../../assets/Group1_10.png\" width=\"30px\" class=\"pr1\" /> WAM-Pro </button><br />\r\n                <button mat-button (click)= \"evaluateButtonGroup2(6)\" [ngClass]=\"[btnStyleGroup2[5]]\" > <img src=\"../../assets/Group1_11.png\" width=\"30px\" class=\"pr1\" /> Telecom </button><br />\r\n                <button mat-button (click)= \"evaluateButtonGroup2(7)\" [ngClass]=\"[btnStyleGroup2[6]]\" > <img src=\"../../assets/Group1_6.png\" width=\"30px\" class=\"pr1\" /> Media & Entertainment </button><br />\r\n                <button mat-button (click)= \"evaluateButtonGroup2(8)\" [ngClass]=\"[btnStyleGroup2[7]]\" > <img src=\"../../assets/Group1_7.png\" width=\"30px\" class=\"pr1\" /> Automotive Finance </button><br />\r\n                <button mat-button (click)= \"evaluateButtonGroup2(9)\" [ngClass]=\"[btnStyleGroup2[8]]\" > <img src=\"../../assets/Group1_8.png\" width=\"30px\" class=\"pr1\" /> Automotive OEM </button><br />\r\n                <button mat-button (click)=\"evaluateButtonGroup2(10)\" [ngClass]=\"[btnStyleGroup2[9]]\" > <img src=\"../../assets/Group1_9.png\" width=\"30px\" class=\"pr1\" /> Beverage </button><br />\r\n                <button mat-button (click)=\"evaluateButtonGroup2(11)\" [ngClass]=\"[btnStyleGroup2[10]]\" > <img src=\"../../assets/Group1_10.png\" width=\"30px\" class=\"pr1\" /> Consumer Products </button><br />\r\n                <button mat-button (click)=\"evaluateButtonGroup2(12)\" [ngClass]=\"[btnStyleGroup2[11]]\" > <img src=\"../../assets/Group1_11.png\" width=\"30px\" class=\"pr1\" /> Retail </button><br />\r\n                <button mat-button (click)=\"evaluateButtonGroup2(13)\" [ngClass]=\"[btnStyleGroup2[12]]\" > <img src=\"../../assets/Group1_6.png\" width=\"30px\" class=\"pr1\" />Tobacco </button><br />\r\n                <button mat-button (click)=\"evaluateButtonGroup2(14)\" [ngClass]=\"[btnStyleGroup2[13]]\" > <img src=\"../../assets/Group1_7.png\" width=\"30px\" class=\"pr1\" /> Chemicals </button><br />\r\n                <button mat-button (click)=\"evaluateButtonGroup2(15)\" [ngClass]=\"[btnStyleGroup2[14]]\" > <img src=\"../../assets/Group1_8.png\" width=\"30px\" class=\"pr1\" />Mining & Metals </button><br />\r\n                <button mat-button (click)=\"evaluateButtonGroup2(16)\" [ngClass]=\"[btnStyleGroup2[15]]\" > <img src=\"../../assets/Group1_9.png\" width=\"30px\" class=\"pr1\" /> Oil & Gas </button><br />\r\n                <button mat-button (click)=\"evaluateButtonGroup2(17)\" [ngClass]=\"[btnStyleGroup2[16]]\" > <img src=\"../../assets/Group1_10.png\" width=\"30px\" class=\"pr1\" /> Oil Field Services </button><br />\r\n                <button mat-button (click)=\"evaluateButtonGroup2(18)\" [ngClass]=\"[btnStyleGroup2[17]]\" > <img src=\"../../assets/Group1_11.png\" width=\"30px\" class=\"pr1\" /> Power & Utilities </button><br />\r\n                <button mat-button (click)=\"evaluateButtonGroup2(19)\" [ngClass]=\"[btnStyleGroup2[18]]\" class=\"mb2\"> <img src=\"../../assets/Group1_12.png\" width=\"30px\" class=\"pr1\" />Water Utilities</button><br />\r\n            </mat-action-list>\r\n            </mat-expansion-panel>\r\n    </div>\r\n\r\n    <br />\r\n\r\n    <div class=\"box\">\r\n            <mat-expansion-panel>\r\n            <mat-expansion-panel-header>\r\n                <mat-panel-title>\r\n                    <h4>CAPABILITIES </h4>\r\n                </mat-panel-title>\r\n\r\n            </mat-expansion-panel-header>\r\n            \r\n            <mat-action-list>\r\n                <button mat-button  (click)=\"evaluateButtonGroup3(1)\" [ngClass]=\"[btnStyleGroup3[0]]\" > <img src=\"../../assets/Group1_1.png \" width=\"30px\" class=\"pr1\" /> InDEx (Digitization)</button><br />\r\n                <button mat-button  (click)=\"evaluateButtonGroup3(2)\" [ngClass]=\"[btnStyleGroup3[1]]\" > <img src=\"../../assets/Group1_2.png \" width=\"30px\" class=\"pr1\" />NLP</button><br />\r\n                <button mat-button  (click)=\"evaluateButtonGroup3(3)\" [ngClass]=\"[btnStyleGroup3[2]]\"  class=\"mb2\"> <img src=\"../../assets/Group1_5.png \" width=\"30px\" class=\"pr1\" />Blockchain</button><br />\r\n            </mat-action-list>\r\n            </mat-expansion-panel>\r\n    </div>\r\n\r\n    <br />\r\n\r\n    <div class=\"box\">\r\n            <mat-expansion-panel>\r\n            <mat-expansion-panel-header>\r\n                <mat-panel-title>\r\n                    <h4>FUNCTIONS</h4>\r\n                </mat-panel-title>\r\n\r\n            </mat-expansion-panel-header>\r\n            \r\n            <mat-action-list>\r\n                <button mat-button  (click)=\"evaluateButtonGroup4(1)\" [ngClass]=\"[btnStyleGroup4[0]]\" > <img src=\"../../assets/Group1_1.png \" width=\"30px\" class=\"pr1\" /> Account management </button><br />\r\n                <button mat-button  (click)=\"evaluateButtonGroup4(2)\" [ngClass]=\"[btnStyleGroup4[1]]\" > <img src=\"../../assets/Group1_2.png \" width=\"30px\" class=\"pr1\" /> Asset management </button><br />\r\n                <button mat-button  (click)=\"evaluateButtonGroup4(3)\" [ngClass]=\"[btnStyleGroup4[2]]\" > <img src=\"../../assets/Group1_3.png \" width=\"30px\" class=\"pr1\" /> Billing and invoicing </button><br />\r\n                <button mat-button  (click)=\"evaluateButtonGroup4(4)\" [ngClass]=\"[btnStyleGroup4[3]]\" > <img src=\"../../assets/Group1_4.png \" width=\"30px\" class=\"pr1\" /> Business Support System </button><br />\r\n                <button mat-button  (click)=\"evaluateButtonGroup4(5)\" [ngClass]=\"[btnStyleGroup4[4]]\" > <img src=\"../../assets/Group1_1.png \" width=\"30px\" class=\"pr1\" /> Claims processing & settlement </button><br />\r\n                <button mat-button  (click)=\"evaluateButtonGroup4(6)\" [ngClass]=\"[btnStyleGroup4[5]]\" > <img src=\"../../assets/Group1_2.png \" width=\"30px\" class=\"pr1\" /> Customer acquisition </button><br />\r\n                <button mat-button  (click)=\"evaluateButtonGroup4(7)\" [ngClass]=\"[btnStyleGroup4[6]]\" > <img src=\"../../assets/Group1_3.png \" width=\"30px\" class=\"pr1\" /> Distribution & Selling </button><br />\r\n                <button mat-button  (click)=\"evaluateButtonGroup4(8)\" [ngClass]=\"[btnStyleGroup4[7]]\" > <img src=\"../../assets/Group1_4.png \" width=\"30px\" class=\"pr1\" /> Invoice & Billing </button><br />\r\n                <button mat-button  (click)=\"evaluateButtonGroup4(9)\" [ngClass]=\"[btnStyleGroup4[8]]\" > <img src=\"../../assets/Group1_1.png \" width=\"30px\" class=\"pr1\" /> Invoicing & settlements </button><br />\r\n                <button mat-button  (click)=\"evaluateButtonGroup4(10)\" [ngClass]=\"[btnStyleGroup4[9]]\" > <img src=\"../../assets/Group1_2.png \" width=\"30px\" class=\"pr1\" /> Legal </button><br />\r\n                <button mat-button  (click)=\"evaluateButtonGroup4(11)\" [ngClass]=\"[btnStyleGroup4[10]]\" > <img src=\"../../assets/Group1_3.png \" width=\"30px\" class=\"pr1\" /> Lending operations </button><br />\r\n                <button mat-button  (click)=\"evaluateButtonGroup4(12)\" [ngClass]=\"[btnStyleGroup4[11]]\" > <img src=\"../../assets/Group1_4.png \" width=\"30px\" class=\"pr1\" /> Operations Support System </button><br />\r\n                <button mat-button  (click)=\"evaluateButtonGroup4(13)\" [ngClass]=\"[btnStyleGroup4[12]]\" > <img src=\"../../assets/Group1_1.png \" width=\"30px\" class=\"pr1\" /> Procurement & Supply </button><br />\r\n                <button mat-button  (click)=\"evaluateButtonGroup4(14)\" [ngClass]=\"[btnStyleGroup4[13]]\" > <img src=\"../../assets/Group1_3.png \" width=\"30px\" class=\"pr1\" /> Production </button><br />\r\n                <button mat-button  (click)=\"evaluateButtonGroup4(15)\" [ngClass]=\"[btnStyleGroup4[14]]\" > <img src=\"../../assets/Group1_4.png \" width=\"30px\" class=\"pr1\" /> Regulatory compliance </button><br />\r\n                <button mat-button  (click)=\"evaluateButtonGroup4(16)\" [ngClass]=\"[btnStyleGroup4[15]]\"  class=\"mb2\"> <img src=\"../../assets/Group1_5.png \" width=\"30px\" class=\"pr1\" />Underwriting & policy servicing</button><br />\r\n            </mat-action-list>\r\n            </mat-expansion-panel>\r\n        </div>\r\n\r\n        </mat-accordion>\r\n\r\n\r\n\r\n<!-- \r\n    <div class=\"box mv1\">\r\n        \r\n    </div> -->\r\n</div>"
 
 /***/ }),
 
@@ -824,8 +824,8 @@ let DashboardComponent = class DashboardComponent {
         this.titles = ["KYC document digitization", "CONTRACT DIGITIZATION",
             "INVOICE/PURCHASE ORDER DIGITIZATION", "STANDARD SETTLEMENT INSTRUCTION (SSI) DIGITIZATION",
             "EMAIL INTERPRETATION, RESPONSE AND ROUTING", "CONNECTED SCM (SUPPLY CHAIN MANAGEMENT) ",
-            "TELECOM ASSET", "EY OPS CHAIN ",
-            " BLOCKCHAIN LOYALTY SOLUTION PLATFORM", "ASSET TRACKING"
+            "Telecom_Asset", "EY OPS CHAIN ",
+            " BLOCKCHAIN LOYALTY SOLUTION PLATFORM", "ASSET TRACKING "
         ];
         this.urls = ['kycdigitisation', 'contractdigitisation', 'invoicedigitisation', 'ssi', 'emailinterpretation', 'connectedscm', 'assettracking', 'opschain', 'loyaltysolution', 'assettracking'];
         this.KYC = `An advanced image processing technology that can extract data from scanned image of proof of identity (PoI) documents such as Passport, National ID cards, PAN card etc. with minimal training data required which otherwise is a manually intensive task.  `;
@@ -851,7 +851,24 @@ let DashboardComponent = class DashboardComponent {
             'Media & Entertainment', 'Automotive Finance', 'Automotive OEM', 'Consumer Products', 'Retail', 'Tobacco',
             'Chemicals', 'Mining & Metals', 'Oil & Gas', 'Oil Field Services', 'Power & Utilities', 'Water Utilities'];
         this.capabilities = ["InDEx (Digitization)", "NLP", "Blockchain"];
-        this.functions = [];
+        this.functions = [
+            'Account management',
+            'Asset management',
+            'Billing and invoicing',
+            'Business Support System',
+            'Claims processing & settlement',
+            'Customer acquisition',
+            'Distribution & Selling',
+            'Invoice & Billing',
+            'Invoicing & settlements',
+            'Legal',
+            'Lending operations',
+            'Operations Support System',
+            'Procurement & Supply',
+            'Production',
+            'Regulatory compliance',
+            'Underwriting & policy servicing',
+        ];
         this.arraySpliter(this.data, this.images, this.titles, this.urls);
     }
     ngOnInit() {
@@ -1139,6 +1156,189 @@ let DashboardComponent = class DashboardComponent {
                 }
             }
             switch (this.group4ClickInfo) {
+                case 1: {
+                    this.function = this.functions[0];
+                    yield this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 0);
+                    yield this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 1);
+                    yield this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 2);
+                    yield this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 3);
+                    yield this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 5);
+                    yield this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 6);
+                    yield this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 7);
+                    break;
+                }
+                case 2: {
+                    this.function = this.functions[1];
+                    yield this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 0);
+                    yield this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 1);
+                    yield this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 5);
+                    yield this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 6);
+                    yield this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 7);
+                    break;
+                }
+                case 3: {
+                    this.function = this.functions[2];
+                    yield this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 0);
+                    yield this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 1);
+                    yield this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 4);
+                    yield this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 5);
+                    yield this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 6);
+                    yield this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 7);
+                    yield this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 8);
+                    yield this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 9);
+                    break;
+                }
+                case 4: {
+                    this.function = this.functions[3];
+                    yield this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 0);
+                    yield this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 1);
+                    yield this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 5);
+                    yield this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 6);
+                    yield this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 7);
+                    yield this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 8);
+                    yield this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 9);
+                    break;
+                }
+                case 5: {
+                    this.function = this.functions[4];
+                    yield this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 0);
+                    yield this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 1);
+                    yield this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 2);
+                    yield this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 3);
+                    yield this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 4);
+                    yield this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 5);
+                    yield this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 6);
+                    yield this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 7);
+                    yield this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 8);
+                    break;
+                }
+                case 6: {
+                    this.function = this.functions[5];
+                    yield this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 1);
+                    yield this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 2);
+                    yield this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 3);
+                    yield this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 5);
+                    yield this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 6);
+                    yield this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 8);
+                    yield this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 9);
+                    break;
+                }
+                case 7: {
+                    this.function = this.functions[6];
+                    yield this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 0);
+                    yield this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 3);
+                    yield this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 4);
+                    yield this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 6);
+                    yield this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 7);
+                    break;
+                }
+                case 8: {
+                    this.function = this.functions[7];
+                    yield this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 0);
+                    yield this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 1);
+                    yield this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 4);
+                    yield this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 5);
+                    yield this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 6);
+                    yield this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 7);
+                    yield this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 8);
+                    yield this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 9);
+                    break;
+                }
+                case 9: {
+                    this.function = this.functions[8];
+                    yield this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 0);
+                    yield this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 1);
+                    yield this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 4);
+                    yield this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 5);
+                    yield this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 6);
+                    yield this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 7);
+                    yield this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 8);
+                    break;
+                }
+                case 10: {
+                    this.function = this.functions[9];
+                    yield this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 0);
+                    yield this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 2);
+                    yield this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 3);
+                    yield this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 4);
+                    yield this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 5);
+                    yield this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 6);
+                    yield this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 7);
+                    yield this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 8);
+                    yield this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 9);
+                    break;
+                }
+                case 11: {
+                    this.function = this.functions[10];
+                    yield this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 0);
+                    yield this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 4);
+                    yield this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 5);
+                    yield this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 6);
+                    yield this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 7);
+                    yield this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 8);
+                    yield this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 9);
+                    break;
+                }
+                case 12: {
+                    this.function = this.functions[11];
+                    yield this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 0);
+                    yield this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 1);
+                    yield this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 2);
+                    yield this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 3);
+                    yield this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 4);
+                    yield this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 7);
+                    break;
+                }
+                case 13: {
+                    this.function = this.functions[12];
+                    yield this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 0);
+                    yield this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 3);
+                    yield this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 4);
+                    yield this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 6);
+                    yield this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 7);
+                    break;
+                }
+                case 14: {
+                    this.function = this.functions[13];
+                    yield this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 0);
+                    yield this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 1);
+                    yield this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 2);
+                    yield this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 3);
+                    yield this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 4);
+                    yield this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 6);
+                    yield this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 7);
+                    break;
+                }
+                case 15: {
+                    this.function = this.functions[14];
+                    yield this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 0);
+                    yield this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 1);
+                    yield this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 2);
+                    yield this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 3);
+                    yield this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 4);
+                    yield this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 5);
+                    yield this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 6);
+                    yield this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 7);
+                    yield this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 9);
+                    break;
+                }
+                case 16: {
+                    this.function = this.functions[15];
+                    yield this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 0);
+                    yield this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 1);
+                    yield this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 2);
+                    yield this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 3);
+                    yield this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 4);
+                    yield this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 5);
+                    yield this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 6);
+                    yield this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 7);
+                    yield this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 8);
+                    yield this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 9);
+                    break;
+                }
+                case 100: {
+                    this.function = "";
+                }
             }
             if (this.industry != "" && this.sector != "")
                 this.industry += " - ";
@@ -1770,7 +1970,11 @@ let NavbarComponent = class NavbarComponent {
             'btn-default', 'btn-default', 'btn-default', 'btn-default', 'btn-default'
         ];
         this.btnStyleGroup3 = ['btn-default', 'btn-default', 'btn-default'];
-        this.btnStyleGroup4 = ['btn-default', 'btn-default', 'btn-default', 'btn-default', 'btn-default'];
+        this.btnStyleGroup4 = [
+            'btn-default', 'btn-default', 'btn-default', 'btn-default', 'btn-default', 'btn-default',
+            'btn-default', 'btn-default', 'btn-default', 'btn-default', 'btn-default', 'btn-default',
+            'btn-default', 'btn-default', 'btn-default', 'btn-default', 'btn-default'
+        ];
     }
     ngOnInit() {
         localStorage.clear();

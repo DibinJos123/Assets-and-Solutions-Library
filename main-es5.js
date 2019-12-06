@@ -206,7 +206,7 @@ module.exports = "\n<nav _ngcontent-vyk-c12=\"\" class=\"navbar navbar-default n
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"mh1\">\r\n    <div class=\"mv1\">\r\n        <img src=\"./assets/Group0_1.png\" width=\"100%\" />\r\n    </div>\r\n\r\n    <div class=\"box\">\r\n        <mat-accordion >\r\n            <mat-expansion-panel>\r\n            <mat-expansion-panel-header>\r\n                <mat-panel-title>\r\n                        <h4>INDUSTRIES</h4>\r\n                </mat-panel-title>\r\n\r\n            </mat-expansion-panel-header>\r\n                                                                                                                                       \t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\r\n            <mat-action-list>\r\n                <button mat-button  (click)=\"evaluateButtonGroup1(1)\" [ngClass]=\"[btnStyleGroup1[0]]\" > <img src=\"./assets/Group1_1.png \" width=\"30px\" class=\"pr1\" /> Financial Services</button><br />\r\n                <button mat-button  (click)=\"evaluateButtonGroup1(2)\" [ngClass]=\"[btnStyleGroup1[1]]\" > <img src=\"./assets/Group1_2.png \" width=\"30px\" class=\"pr1\" />Technology, Media & Entertainment and Telecom</button><br />\r\n                <button mat-button  (click)=\"evaluateButtonGroup1(3)\" [ngClass]=\"[btnStyleGroup1[2]]\" > <img src=\"./assets/Group1_3.png \" width=\"30px\" class=\"pr1\" />Advanced Manufacturing & Mobility</button><br />\r\n                <button mat-button  (click)=\"evaluateButtonGroup1(4)\" [ngClass]=\"[btnStyleGroup1[3]]\" > <img src=\"./assets/Group1_4.png \" width=\"30px\" class=\"pr1\" />Consumer</button><br />\r\n                <button mat-button  (click)=\"evaluateButtonGroup1(5)\" [ngClass]=\"[btnStyleGroup1[4]]\"  class=\"mb2\"> <img src=\"./assets/Group1_5.png \" width=\"30px\" class=\"pr1\" />Energy</button><br />\r\n            </mat-action-list>\r\n            </mat-expansion-panel>\r\n        </mat-accordion>\r\n    </div>\r\n    <br />\r\n    <div class=\"box\" >\r\n        <mat-accordion >\r\n            <mat-expansion-panel>\r\n            <mat-expansion-panel-header>\r\n                <mat-panel-title>\r\n                    <h4> SECTORS</h4>\r\n                </mat-panel-title>\r\n\r\n            </mat-expansion-panel-header>\r\n            <!-- \t \t                                                                                                                   \t\t\t\t\t\t\t\t\t\tWater Utilities -->\r\n      \r\n            <mat-action-list>\r\n                <button mat-button (click)= \"evaluateButtonGroup2(1)\" [ngClass]=\"[btnStyleGroup2[0]]\" > <img src=\"./assets/Group1_6.png\" width=\"30px\" class=\"pr1\" />Consumer Banking</button><br />\r\n                <button mat-button (click)= \"evaluateButtonGroup2(2)\" [ngClass]=\"[btnStyleGroup2[1]]\" > <img src=\"./assets/Group1_7.png\" width=\"30px\" class=\"pr1\" />General Insurance</button><br />\r\n                <button mat-button (click)= \"evaluateButtonGroup2(3)\" [ngClass]=\"[btnStyleGroup2[2]]\" > <img src=\"./assets/Group1_8.png\" width=\"30px\" class=\"pr1\" />Individual life insurance</button><br />\r\n                <button mat-button (click)= \"evaluateButtonGroup2(4)\" [ngClass]=\"[btnStyleGroup2[3]]\" > <img src=\"./assets/Group1_9.png\" width=\"30px\" class=\"pr1\" />Mortgage Finance</button><br />\r\n                <button mat-button (click)= \"evaluateButtonGroup2(5)\" [ngClass]=\"[btnStyleGroup2[4]]\" > <img src=\"./assets/Group1_10.png\" width=\"30px\" class=\"pr1\" /> WAM-Pro </button><br />\r\n                <button mat-button (click)= \"evaluateButtonGroup2(6)\" [ngClass]=\"[btnStyleGroup2[5]]\" > <img src=\"./assets/Group1_11.png\" width=\"30px\" class=\"pr1\" /> Telecom </button><br />\r\n                <button mat-button (click)= \"evaluateButtonGroup2(7)\" [ngClass]=\"[btnStyleGroup2[6]]\" > <img src=\"./assets/Group1_6.png\" width=\"30px\" class=\"pr1\" /> Media & Entertainment </button><br />\r\n                <button mat-button (click)= \"evaluateButtonGroup2(8)\" [ngClass]=\"[btnStyleGroup2[7]]\" > <img src=\"./assets/Group1_7.png\" width=\"30px\" class=\"pr1\" /> Automotive Finance </button><br />\r\n                <button mat-button (click)= \"evaluateButtonGroup2(9)\" [ngClass]=\"[btnStyleGroup2[8]]\" > <img src=\"./assets/Group1_8.png\" width=\"30px\" class=\"pr1\" /> Automotive OEM </button><br />\r\n                <button mat-button (click)=\"evaluateButtonGroup2(10)\" [ngClass]=\"[btnStyleGroup2[9]]\" > <img src=\"./assets/Group1_9.png\" width=\"30px\" class=\"pr1\" /> Beverage </button><br />\r\n                <button mat-button (click)=\"evaluateButtonGroup2(11)\" [ngClass]=\"[btnStyleGroup2[10]]\" > <img src=\"./assets/Group1_10.png\" width=\"30px\" class=\"pr1\" /> Consumer Products </button><br />\r\n                <button mat-button (click)=\"evaluateButtonGroup2(12)\" [ngClass]=\"[btnStyleGroup2[11]]\" > <img src=\"./assets/Group1_11.png\" width=\"30px\" class=\"pr1\" /> Retail </button><br />\r\n                <button mat-button (click)=\"evaluateButtonGroup2(13)\" [ngClass]=\"[btnStyleGroup2[12]]\" > <img src=\"./assets/Group1_6.png\" width=\"30px\" class=\"pr1\" />Tobacco </button><br />\r\n                <button mat-button (click)=\"evaluateButtonGroup2(14)\" [ngClass]=\"[btnStyleGroup2[13]]\" > <img src=\"./assets/Group1_7.png\" width=\"30px\" class=\"pr1\" /> Chemicals </button><br />\r\n                <button mat-button (click)=\"evaluateButtonGroup2(15)\" [ngClass]=\"[btnStyleGroup2[14]]\" > <img src=\"./assets/Group1_8.png\" width=\"30px\" class=\"pr1\" />Mining & Metals </button><br />\r\n                <button mat-button (click)=\"evaluateButtonGroup2(16)\" [ngClass]=\"[btnStyleGroup2[15]]\" > <img src=\"./assets/Group1_9.png\" width=\"30px\" class=\"pr1\" /> Oil & Gas </button><br />\r\n                <button mat-button (click)=\"evaluateButtonGroup2(17)\" [ngClass]=\"[btnStyleGroup2[16]]\" > <img src=\"./assets/Group1_10.png\" width=\"30px\" class=\"pr1\" /> Oil Field Services </button><br />\r\n                <button mat-button (click)=\"evaluateButtonGroup2(18)\" [ngClass]=\"[btnStyleGroup2[17]]\" > <img src=\"./assets/Group1_11.png\" width=\"30px\" class=\"pr1\" /> Power & Utilities </button><br />\r\n                <button mat-button (click)=\"evaluateButtonGroup2(19)\" [ngClass]=\"[btnStyleGroup2[18]]\" class=\"mb2\"> <img src=\"./assets/Group1_12.png\" width=\"30px\" class=\"pr1\" />Water Utilities</button><br />\r\n            </mat-action-list>\r\n            </mat-expansion-panel>\r\n        </mat-accordion>\r\n    </div>\r\n\r\n    <br />\r\n\r\n    <div class=\"box\">\r\n        <mat-accordion >\r\n            <mat-expansion-panel>\r\n            <mat-expansion-panel-header>\r\n                <mat-panel-title>\r\n                    <h4>CAPABILITIES </h4>\r\n                </mat-panel-title>\r\n\r\n            </mat-expansion-panel-header>\r\n            \r\n            <mat-action-list>\r\n                <button mat-button  (click)=\"evaluateButtonGroup3(1)\" [ngClass]=\"[btnStyleGroup3[0]]\" > <img src=\"./assets/Group1_1.png \" width=\"30px\" class=\"pr1\" /> InDEx (Digitization)</button><br />\r\n                <button mat-button  (click)=\"evaluateButtonGroup3(2)\" [ngClass]=\"[btnStyleGroup3[1]]\" > <img src=\"./assets/Group1_2.png \" width=\"30px\" class=\"pr1\" />NLP</button><br />\r\n                <button mat-button  (click)=\"evaluateButtonGroup3(3)\" [ngClass]=\"[btnStyleGroup3[2]]\"  class=\"mb2\"> <img src=\"./assets/Group1_5.png \" width=\"30px\" class=\"pr1\" />Blockchain</button><br />\r\n            </mat-action-list>\r\n            </mat-expansion-panel>\r\n        </mat-accordion>\r\n    </div>\r\n\r\n    <br />\r\n\r\n    <div class=\"box\">\r\n        <mat-accordion >\r\n            <mat-expansion-panel>\r\n            <mat-expansion-panel-header>\r\n                <mat-panel-title>\r\n                    <h4>FUNCTIONS</h4>\r\n                </mat-panel-title>\r\n\r\n            </mat-expansion-panel-header>\r\n            \r\n            <mat-action-list>\r\n                <button mat-button  (click)=\"evaluateButtonGroup4(1)\" [ngClass]=\"[btnStyleGroup4[0]]\" > <img src=\"./assets/Group1_1.png \" width=\"30px\" class=\"pr1\" /> Blockchain</button><br />\r\n                <button mat-button  (click)=\"evaluateButtonGroup4(2)\" [ngClass]=\"[btnStyleGroup4[1]]\" > <img src=\"./assets/Group1_2.png \" width=\"30px\" class=\"pr1\" />Blockchain</button><br />\r\n                <button mat-button  (click)=\"evaluateButtonGroup4(3)\" [ngClass]=\"[btnStyleGroup4[2]]\" > <img src=\"./assets/Group1_3.png \" width=\"30px\" class=\"pr1\" />Blockchain</button><br />\r\n                <button mat-button  (click)=\"evaluateButtonGroup4(4)\" [ngClass]=\"[btnStyleGroup4[3]]\" > <img src=\"./assets/Group1_4.png \" width=\"30px\" class=\"pr1\" />Blockchain</button><br />\r\n                <button mat-button  (click)=\"evaluateButtonGroup4(5)\" [ngClass]=\"[btnStyleGroup4[4]]\"  class=\"mb2\"> <img src=\"./assets/Group1_5.png \" width=\"30px\" class=\"pr1\" />Blockchain</button><br />\r\n            </mat-action-list>\r\n            </mat-expansion-panel>\r\n        </mat-accordion>\r\n    </div>\r\n\r\n\r\n\r\n<!-- \r\n    <div class=\"box mv1\">\r\n        \r\n    </div> -->\r\n</div>"
+module.exports = "<div class=\"mh1\">\r\n    <div class=\"mv1\">\r\n        <img src=\"../../assets/Group0_1.png\" width=\"100%\" />\r\n    </div>\r\n\r\n    \r\n        <mat-accordion >\r\n                <div class=\"box\">\r\n            <mat-expansion-panel>\r\n            <mat-expansion-panel-header>\r\n                <mat-panel-title>\r\n                        <h4>INDUSTRIES</h4>\r\n                </mat-panel-title>\r\n\r\n            </mat-expansion-panel-header>\r\n                                                                                                                                       \t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\r\n            <mat-action-list>\r\n                <button mat-button  (click)=\"evaluateButtonGroup1(1)\" [ngClass]=\"[btnStyleGroup1[0]]\" > <img src=\"../../assets/Group1_1.png \" width=\"30px\" class=\"pr1\" /> Financial Services</button><br />\r\n                <button mat-button  (click)=\"evaluateButtonGroup1(2)\" [ngClass]=\"[btnStyleGroup1[1]]\" > <img src=\"../../assets/Group1_2.png \" width=\"30px\" class=\"pr1\" />Technology, Media & Entertainment and Telecom</button><br />\r\n                <button mat-button  (click)=\"evaluateButtonGroup1(3)\" [ngClass]=\"[btnStyleGroup1[2]]\" > <img src=\"../../assets/Group1_3.png \" width=\"30px\" class=\"pr1\" />Advanced Manufacturing & Mobility</button><br />\r\n                <button mat-button  (click)=\"evaluateButtonGroup1(4)\" [ngClass]=\"[btnStyleGroup1[3]]\" > <img src=\"../../assets/Group1_4.png \" width=\"30px\" class=\"pr1\" />Consumer</button><br />\r\n                <button mat-button  (click)=\"evaluateButtonGroup1(5)\" [ngClass]=\"[btnStyleGroup1[4]]\"  class=\"mb2\"> <img src=\"../../assets/Group1_5.png \" width=\"30px\" class=\"pr1\" />Energy</button><br />\r\n            </mat-action-list>\r\n            </mat-expansion-panel>\r\n    </div>\r\n    <br />\r\n    <div class=\"box\" >\r\n            <mat-expansion-panel>\r\n            <mat-expansion-panel-header>\r\n                <mat-panel-title>\r\n                    <h4> SECTORS</h4>\r\n                </mat-panel-title>\r\n\r\n            </mat-expansion-panel-header>\r\n            <!-- \t \t                                                                                                                   \t\t\t\t\t\t\t\t\t\tWater Utilities -->\r\n      \r\n            <mat-action-list>\r\n                <button mat-button (click)= \"evaluateButtonGroup2(1)\" [ngClass]=\"[btnStyleGroup2[0]]\" > <img src=\"../../assets/Group1_6.png\" width=\"30px\" class=\"pr1\" />Consumer Banking</button><br />\r\n                <button mat-button (click)= \"evaluateButtonGroup2(2)\" [ngClass]=\"[btnStyleGroup2[1]]\" > <img src=\"../../assets/Group1_7.png\" width=\"30px\" class=\"pr1\" />General Insurance</button><br />\r\n                <button mat-button (click)= \"evaluateButtonGroup2(3)\" [ngClass]=\"[btnStyleGroup2[2]]\" > <img src=\"../../assets/Group1_8.png\" width=\"30px\" class=\"pr1\" />Individual life insurance</button><br />\r\n                <button mat-button (click)= \"evaluateButtonGroup2(4)\" [ngClass]=\"[btnStyleGroup2[3]]\" > <img src=\"../../assets/Group1_9.png\" width=\"30px\" class=\"pr1\" />Mortgage Finance</button><br />\r\n                <button mat-button (click)= \"evaluateButtonGroup2(5)\" [ngClass]=\"[btnStyleGroup2[4]]\" > <img src=\"../../assets/Group1_10.png\" width=\"30px\" class=\"pr1\" /> WAM-Pro </button><br />\r\n                <button mat-button (click)= \"evaluateButtonGroup2(6)\" [ngClass]=\"[btnStyleGroup2[5]]\" > <img src=\"../../assets/Group1_11.png\" width=\"30px\" class=\"pr1\" /> Telecom </button><br />\r\n                <button mat-button (click)= \"evaluateButtonGroup2(7)\" [ngClass]=\"[btnStyleGroup2[6]]\" > <img src=\"../../assets/Group1_6.png\" width=\"30px\" class=\"pr1\" /> Media & Entertainment </button><br />\r\n                <button mat-button (click)= \"evaluateButtonGroup2(8)\" [ngClass]=\"[btnStyleGroup2[7]]\" > <img src=\"../../assets/Group1_7.png\" width=\"30px\" class=\"pr1\" /> Automotive Finance </button><br />\r\n                <button mat-button (click)= \"evaluateButtonGroup2(9)\" [ngClass]=\"[btnStyleGroup2[8]]\" > <img src=\"../../assets/Group1_8.png\" width=\"30px\" class=\"pr1\" /> Automotive OEM </button><br />\r\n                <button mat-button (click)=\"evaluateButtonGroup2(10)\" [ngClass]=\"[btnStyleGroup2[9]]\" > <img src=\"../../assets/Group1_9.png\" width=\"30px\" class=\"pr1\" /> Beverage </button><br />\r\n                <button mat-button (click)=\"evaluateButtonGroup2(11)\" [ngClass]=\"[btnStyleGroup2[10]]\" > <img src=\"../../assets/Group1_10.png\" width=\"30px\" class=\"pr1\" /> Consumer Products </button><br />\r\n                <button mat-button (click)=\"evaluateButtonGroup2(12)\" [ngClass]=\"[btnStyleGroup2[11]]\" > <img src=\"../../assets/Group1_11.png\" width=\"30px\" class=\"pr1\" /> Retail </button><br />\r\n                <button mat-button (click)=\"evaluateButtonGroup2(13)\" [ngClass]=\"[btnStyleGroup2[12]]\" > <img src=\"../../assets/Group1_6.png\" width=\"30px\" class=\"pr1\" />Tobacco </button><br />\r\n                <button mat-button (click)=\"evaluateButtonGroup2(14)\" [ngClass]=\"[btnStyleGroup2[13]]\" > <img src=\"../../assets/Group1_7.png\" width=\"30px\" class=\"pr1\" /> Chemicals </button><br />\r\n                <button mat-button (click)=\"evaluateButtonGroup2(15)\" [ngClass]=\"[btnStyleGroup2[14]]\" > <img src=\"../../assets/Group1_8.png\" width=\"30px\" class=\"pr1\" />Mining & Metals </button><br />\r\n                <button mat-button (click)=\"evaluateButtonGroup2(16)\" [ngClass]=\"[btnStyleGroup2[15]]\" > <img src=\"../../assets/Group1_9.png\" width=\"30px\" class=\"pr1\" /> Oil & Gas </button><br />\r\n                <button mat-button (click)=\"evaluateButtonGroup2(17)\" [ngClass]=\"[btnStyleGroup2[16]]\" > <img src=\"../../assets/Group1_10.png\" width=\"30px\" class=\"pr1\" /> Oil Field Services </button><br />\r\n                <button mat-button (click)=\"evaluateButtonGroup2(18)\" [ngClass]=\"[btnStyleGroup2[17]]\" > <img src=\"../../assets/Group1_11.png\" width=\"30px\" class=\"pr1\" /> Power & Utilities </button><br />\r\n                <button mat-button (click)=\"evaluateButtonGroup2(19)\" [ngClass]=\"[btnStyleGroup2[18]]\" class=\"mb2\"> <img src=\"../../assets/Group1_12.png\" width=\"30px\" class=\"pr1\" />Water Utilities</button><br />\r\n            </mat-action-list>\r\n            </mat-expansion-panel>\r\n    </div>\r\n\r\n    <br />\r\n\r\n    <div class=\"box\">\r\n            <mat-expansion-panel>\r\n            <mat-expansion-panel-header>\r\n                <mat-panel-title>\r\n                    <h4>CAPABILITIES </h4>\r\n                </mat-panel-title>\r\n\r\n            </mat-expansion-panel-header>\r\n            \r\n            <mat-action-list>\r\n                <button mat-button  (click)=\"evaluateButtonGroup3(1)\" [ngClass]=\"[btnStyleGroup3[0]]\" > <img src=\"../../assets/Group1_1.png \" width=\"30px\" class=\"pr1\" /> InDEx (Digitization)</button><br />\r\n                <button mat-button  (click)=\"evaluateButtonGroup3(2)\" [ngClass]=\"[btnStyleGroup3[1]]\" > <img src=\"../../assets/Group1_2.png \" width=\"30px\" class=\"pr1\" />NLP</button><br />\r\n                <button mat-button  (click)=\"evaluateButtonGroup3(3)\" [ngClass]=\"[btnStyleGroup3[2]]\"  class=\"mb2\"> <img src=\"../../assets/Group1_5.png \" width=\"30px\" class=\"pr1\" />Blockchain</button><br />\r\n            </mat-action-list>\r\n            </mat-expansion-panel>\r\n    </div>\r\n\r\n    <br />\r\n\r\n    <div class=\"box\">\r\n            <mat-expansion-panel>\r\n            <mat-expansion-panel-header>\r\n                <mat-panel-title>\r\n                    <h4>FUNCTIONS</h4>\r\n                </mat-panel-title>\r\n\r\n            </mat-expansion-panel-header>\r\n            \r\n            <mat-action-list>\r\n                <button mat-button  (click)=\"evaluateButtonGroup4(1)\" [ngClass]=\"[btnStyleGroup4[0]]\" > <img src=\"../../assets/Group1_1.png \" width=\"30px\" class=\"pr1\" /> Account management </button><br />\r\n                <button mat-button  (click)=\"evaluateButtonGroup4(2)\" [ngClass]=\"[btnStyleGroup4[1]]\" > <img src=\"../../assets/Group1_2.png \" width=\"30px\" class=\"pr1\" /> Asset management </button><br />\r\n                <button mat-button  (click)=\"evaluateButtonGroup4(3)\" [ngClass]=\"[btnStyleGroup4[2]]\" > <img src=\"../../assets/Group1_3.png \" width=\"30px\" class=\"pr1\" /> Billing and invoicing </button><br />\r\n                <button mat-button  (click)=\"evaluateButtonGroup4(4)\" [ngClass]=\"[btnStyleGroup4[3]]\" > <img src=\"../../assets/Group1_4.png \" width=\"30px\" class=\"pr1\" /> Business Support System </button><br />\r\n                <button mat-button  (click)=\"evaluateButtonGroup4(5)\" [ngClass]=\"[btnStyleGroup4[4]]\" > <img src=\"../../assets/Group1_1.png \" width=\"30px\" class=\"pr1\" /> Claims processing & settlement </button><br />\r\n                <button mat-button  (click)=\"evaluateButtonGroup4(6)\" [ngClass]=\"[btnStyleGroup4[5]]\" > <img src=\"../../assets/Group1_2.png \" width=\"30px\" class=\"pr1\" /> Customer acquisition </button><br />\r\n                <button mat-button  (click)=\"evaluateButtonGroup4(7)\" [ngClass]=\"[btnStyleGroup4[6]]\" > <img src=\"../../assets/Group1_3.png \" width=\"30px\" class=\"pr1\" /> Distribution & Selling </button><br />\r\n                <button mat-button  (click)=\"evaluateButtonGroup4(8)\" [ngClass]=\"[btnStyleGroup4[7]]\" > <img src=\"../../assets/Group1_4.png \" width=\"30px\" class=\"pr1\" /> Invoice & Billing </button><br />\r\n                <button mat-button  (click)=\"evaluateButtonGroup4(9)\" [ngClass]=\"[btnStyleGroup4[8]]\" > <img src=\"../../assets/Group1_1.png \" width=\"30px\" class=\"pr1\" /> Invoicing & settlements </button><br />\r\n                <button mat-button  (click)=\"evaluateButtonGroup4(10)\" [ngClass]=\"[btnStyleGroup4[9]]\" > <img src=\"../../assets/Group1_2.png \" width=\"30px\" class=\"pr1\" /> Legal </button><br />\r\n                <button mat-button  (click)=\"evaluateButtonGroup4(11)\" [ngClass]=\"[btnStyleGroup4[10]]\" > <img src=\"../../assets/Group1_3.png \" width=\"30px\" class=\"pr1\" /> Lending operations </button><br />\r\n                <button mat-button  (click)=\"evaluateButtonGroup4(12)\" [ngClass]=\"[btnStyleGroup4[11]]\" > <img src=\"../../assets/Group1_4.png \" width=\"30px\" class=\"pr1\" /> Operations Support System </button><br />\r\n                <button mat-button  (click)=\"evaluateButtonGroup4(13)\" [ngClass]=\"[btnStyleGroup4[12]]\" > <img src=\"../../assets/Group1_1.png \" width=\"30px\" class=\"pr1\" /> Procurement & Supply </button><br />\r\n                <button mat-button  (click)=\"evaluateButtonGroup4(14)\" [ngClass]=\"[btnStyleGroup4[13]]\" > <img src=\"../../assets/Group1_3.png \" width=\"30px\" class=\"pr1\" /> Production </button><br />\r\n                <button mat-button  (click)=\"evaluateButtonGroup4(15)\" [ngClass]=\"[btnStyleGroup4[14]]\" > <img src=\"../../assets/Group1_4.png \" width=\"30px\" class=\"pr1\" /> Regulatory compliance </button><br />\r\n                <button mat-button  (click)=\"evaluateButtonGroup4(16)\" [ngClass]=\"[btnStyleGroup4[15]]\"  class=\"mb2\"> <img src=\"../../assets/Group1_5.png \" width=\"30px\" class=\"pr1\" />Underwriting & policy servicing</button><br />\r\n            </mat-action-list>\r\n            </mat-expansion-panel>\r\n        </div>\r\n\r\n        </mat-accordion>\r\n\r\n\r\n\r\n<!-- \r\n    <div class=\"box mv1\">\r\n        \r\n    </div> -->\r\n</div>"
 
 /***/ }),
 
@@ -838,8 +838,8 @@ var DashboardComponent = /** @class */ (function () {
         this.titles = ["KYC document digitization", "CONTRACT DIGITIZATION",
             "INVOICE/PURCHASE ORDER DIGITIZATION", "STANDARD SETTLEMENT INSTRUCTION (SSI) DIGITIZATION",
             "EMAIL INTERPRETATION, RESPONSE AND ROUTING", "CONNECTED SCM (SUPPLY CHAIN MANAGEMENT) ",
-            "TELECOM ASSET", "EY OPS CHAIN ",
-            " BLOCKCHAIN LOYALTY SOLUTION PLATFORM", "ASSET TRACKING"
+            "Telecom_Asset", "EY OPS CHAIN ",
+            " BLOCKCHAIN LOYALTY SOLUTION PLATFORM", "ASSET TRACKING "
         ];
         this.urls = ['kycdigitisation', 'contractdigitisation', 'invoicedigitisation', 'ssi', 'emailinterpretation', 'connectedscm', 'assettracking', 'opschain', 'loyaltysolution', 'assettracking'];
         this.KYC = "An advanced image processing technology that can extract data from scanned image of proof of identity (PoI) documents such as Passport, National ID cards, PAN card etc. with minimal training data required which otherwise is a manually intensive task.  ";
@@ -865,7 +865,24 @@ var DashboardComponent = /** @class */ (function () {
             'Media & Entertainment', 'Automotive Finance', 'Automotive OEM', 'Consumer Products', 'Retail', 'Tobacco',
             'Chemicals', 'Mining & Metals', 'Oil & Gas', 'Oil Field Services', 'Power & Utilities', 'Water Utilities'];
         this.capabilities = ["InDEx (Digitization)", "NLP", "Blockchain"];
-        this.functions = [];
+        this.functions = [
+            'Account management',
+            'Asset management',
+            'Billing and invoicing',
+            'Business Support System',
+            'Claims processing & settlement',
+            'Customer acquisition',
+            'Distribution & Selling',
+            'Invoice & Billing',
+            'Invoicing & settlements',
+            'Legal',
+            'Lending operations',
+            'Operations Support System',
+            'Procurement & Supply',
+            'Production',
+            'Regulatory compliance',
+            'Underwriting & policy servicing',
+        ];
         this.arraySpliter(this.data, this.images, this.titles, this.urls);
     }
     DashboardComponent.prototype.ngOnInit = function () {
@@ -931,9 +948,9 @@ var DashboardComponent = /** @class */ (function () {
     };
     DashboardComponent.prototype.getClickInfo = function (Value) {
         return tslib__WEBPACK_IMPORTED_MODULE_0__["__awaiter"](this, void 0, void 0, function () {
-            var visibleData, visibleImages, visibleTitles, visibleUrls, _a, _b, _c;
-            return tslib__WEBPACK_IMPORTED_MODULE_0__["__generator"](this, function (_d) {
-                switch (_d.label) {
+            var visibleData, visibleImages, visibleTitles, visibleUrls, _a, _b, _c, _d;
+            return tslib__WEBPACK_IMPORTED_MODULE_0__["__generator"](this, function (_e) {
+                switch (_e.label) {
                     case 0:
                         this.industry = "";
                         this.sector = "";
@@ -959,58 +976,58 @@ var DashboardComponent = /** @class */ (function () {
                         this.industry = this.industries[0];
                         return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 5)];
                     case 2:
-                        _d.sent();
+                        _e.sent();
                         return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 6)];
                     case 3:
-                        _d.sent();
+                        _e.sent();
                         return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 8)];
                     case 4:
-                        _d.sent();
+                        _e.sent();
                         return [3 /*break*/, 18];
                     case 5:
                         {
                             this.industry = this.industries[1];
                             return [3 /*break*/, 18];
                         }
-                        _d.label = 6;
+                        _e.label = 6;
                     case 6:
                         this.industry = this.industries[2];
                         return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 3)];
                     case 7:
-                        _d.sent();
+                        _e.sent();
                         return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 6)];
                     case 8:
-                        _d.sent();
+                        _e.sent();
                         return [3 /*break*/, 18];
                     case 9:
                         this.industry = this.industries[3];
                         return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 3)];
                     case 10:
-                        _d.sent();
+                        _e.sent();
                         return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 6)];
                     case 11:
-                        _d.sent();
+                        _e.sent();
                         return [3 /*break*/, 18];
                     case 12:
                         this.industry = this.industries[4];
                         return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 1)];
                     case 13:
-                        _d.sent();
+                        _e.sent();
                         return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 3)];
                     case 14:
-                        _d.sent();
+                        _e.sent();
                         return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 4)];
                     case 15:
-                        _d.sent();
+                        _e.sent();
                         return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 6)];
                     case 16:
-                        _d.sent();
+                        _e.sent();
                         return [3 /*break*/, 18];
                     case 17:
                         {
                             this.industry = "";
                         }
-                        _d.label = 18;
+                        _e.label = 18;
                     case 18:
                         _b = this.group2ClickInfo;
                         switch (_b) {
@@ -1040,250 +1057,250 @@ var DashboardComponent = /** @class */ (function () {
                         this.sector = this.sectors[0];
                         return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 5)];
                     case 20:
-                        _d.sent();
+                        _e.sent();
                         return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 6)];
                     case 21:
-                        _d.sent();
+                        _e.sent();
                         return [3 /*break*/, 99];
                     case 22:
                         this.sector = this.sectors[1];
                         return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 5)];
                     case 23:
-                        _d.sent();
+                        _e.sent();
                         return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 6)];
                     case 24:
-                        _d.sent();
+                        _e.sent();
                         return [3 /*break*/, 99];
                     case 25:
                         this.sector = this.sectors[2];
                         return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 5)];
                     case 26:
-                        _d.sent();
+                        _e.sent();
                         return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 6)];
                     case 27:
-                        _d.sent();
+                        _e.sent();
                         return [3 /*break*/, 99];
                     case 28:
                         this.sector = this.sectors[3];
                         return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 5)];
                     case 29:
-                        _d.sent();
+                        _e.sent();
                         return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 6)];
                     case 30:
-                        _d.sent();
+                        _e.sent();
                         return [3 /*break*/, 99];
                     case 31:
                         this.sector = this.sectors[4];
                         return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 5)];
                     case 32:
-                        _d.sent();
+                        _e.sent();
                         return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 6)];
                     case 33:
-                        _d.sent();
+                        _e.sent();
                         return [3 /*break*/, 99];
                     case 34:
                         {
                             this.sector = this.sectors[5];
                             return [3 /*break*/, 99];
                         }
-                        _d.label = 35;
+                        _e.label = 35;
                     case 35:
                         {
                             this.sector = this.sectors[6];
                             return [3 /*break*/, 99];
                         }
-                        _d.label = 36;
+                        _e.label = 36;
                     case 36:
                         this.sector = this.sectors[7];
                         return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 3)];
                     case 37:
-                        _d.sent();
+                        _e.sent();
                         return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 6)];
                     case 38:
-                        _d.sent();
+                        _e.sent();
                         return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 8)];
                     case 39:
-                        _d.sent();
+                        _e.sent();
                         return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 9)];
                     case 40:
-                        _d.sent();
+                        _e.sent();
                         return [3 /*break*/, 99];
                     case 41:
                         this.sector = this.sectors[8];
                         return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 0)];
                     case 42:
-                        _d.sent();
+                        _e.sent();
                         return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 3)];
                     case 43:
-                        _d.sent();
+                        _e.sent();
                         return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 5)];
                     case 44:
-                        _d.sent();
+                        _e.sent();
                         return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 6)];
                     case 45:
-                        _d.sent();
+                        _e.sent();
                         return [3 /*break*/, 99];
                     case 46:
                         this.sector = this.sectors[9];
                         return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 0)];
                     case 47:
-                        _d.sent();
+                        _e.sent();
                         return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 3)];
                     case 48:
-                        _d.sent();
+                        _e.sent();
                         return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 5)];
                     case 49:
-                        _d.sent();
+                        _e.sent();
                         return [3 /*break*/, 99];
                     case 50:
                         this.sector = this.sectors[10];
                         return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 0)];
                     case 51:
-                        _d.sent();
+                        _e.sent();
                         return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 3)];
                     case 52:
-                        _d.sent();
+                        _e.sent();
                         return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 5)];
                     case 53:
-                        _d.sent();
+                        _e.sent();
                         return [3 /*break*/, 99];
                     case 54:
                         this.sector = this.sectors[11];
                         return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 0)];
                     case 55:
-                        _d.sent();
+                        _e.sent();
                         return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 3)];
                     case 56:
-                        _d.sent();
+                        _e.sent();
                         return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 5)];
                     case 57:
-                        _d.sent();
+                        _e.sent();
                         return [3 /*break*/, 99];
                     case 58:
                         this.sector = this.sectors[12];
                         return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 0)];
                     case 59:
-                        _d.sent();
+                        _e.sent();
                         return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 3)];
                     case 60:
-                        _d.sent();
+                        _e.sent();
                         return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 5)];
                     case 61:
-                        _d.sent();
+                        _e.sent();
                         return [3 /*break*/, 99];
                     case 62:
                         this.sector = this.sectors[13];
                         return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 0)];
                     case 63:
-                        _d.sent();
+                        _e.sent();
                         return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 1)];
                     case 64:
-                        _d.sent();
+                        _e.sent();
                         return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 3)];
                     case 65:
-                        _d.sent();
+                        _e.sent();
                         return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 4)];
                     case 66:
-                        _d.sent();
+                        _e.sent();
                         return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 6)];
                     case 67:
-                        _d.sent();
+                        _e.sent();
                         return [3 /*break*/, 99];
                     case 68:
                         this.sector = this.sectors[14];
                         return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 0)];
                     case 69:
-                        _d.sent();
+                        _e.sent();
                         return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 1)];
                     case 70:
-                        _d.sent();
+                        _e.sent();
                         return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 3)];
                     case 71:
-                        _d.sent();
+                        _e.sent();
                         return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 4)];
                     case 72:
-                        _d.sent();
+                        _e.sent();
                         return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 6)];
                     case 73:
-                        _d.sent();
+                        _e.sent();
                         return [3 /*break*/, 99];
                     case 74:
                         this.sector = this.sectors[15];
                         return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 0)];
                     case 75:
-                        _d.sent();
+                        _e.sent();
                         return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 1)];
                     case 76:
-                        _d.sent();
+                        _e.sent();
                         return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 3)];
                     case 77:
-                        _d.sent();
+                        _e.sent();
                         return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 4)];
                     case 78:
-                        _d.sent();
+                        _e.sent();
                         return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 6)];
                     case 79:
-                        _d.sent();
+                        _e.sent();
                         return [3 /*break*/, 99];
                     case 80:
                         this.sector = this.sectors[16];
                         return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 0)];
                     case 81:
-                        _d.sent();
+                        _e.sent();
                         return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 1)];
                     case 82:
-                        _d.sent();
+                        _e.sent();
                         return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 3)];
                     case 83:
-                        _d.sent();
+                        _e.sent();
                         return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 4)];
                     case 84:
-                        _d.sent();
+                        _e.sent();
                         return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 6)];
                     case 85:
-                        _d.sent();
+                        _e.sent();
                         return [3 /*break*/, 99];
                     case 86:
                         this.sector = this.sectors[17];
                         return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 0)];
                     case 87:
-                        _d.sent();
+                        _e.sent();
                         return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 1)];
                     case 88:
-                        _d.sent();
+                        _e.sent();
                         return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 3)];
                     case 89:
-                        _d.sent();
+                        _e.sent();
                         return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 4)];
                     case 90:
-                        _d.sent();
+                        _e.sent();
                         return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 6)];
                     case 91:
-                        _d.sent();
+                        _e.sent();
                         return [3 /*break*/, 99];
                     case 92:
                         this.sector = this.sectors[18];
                         return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 0)];
                     case 93:
-                        _d.sent();
+                        _e.sent();
                         return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 1)];
                     case 94:
-                        _d.sent();
+                        _e.sent();
                         return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 3)];
                     case 95:
-                        _d.sent();
+                        _e.sent();
                         return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 4)];
                     case 96:
-                        _d.sent();
+                        _e.sent();
                         return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 6)];
                     case 97:
-                        _d.sent();
+                        _e.sent();
                         return [3 /*break*/, 99];
                     case 98:
                         {
                             this.sector = "";
                         }
-                        _d.label = 99;
+                        _e.label = 99;
                     case 99:
                         _c = this.group3ClickInfo;
                         switch (_c) {
@@ -1297,79 +1314,500 @@ var DashboardComponent = /** @class */ (function () {
                         this.capability = this.capabilities[0];
                         return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 4)];
                     case 101:
-                        _d.sent();
+                        _e.sent();
                         return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 5)];
                     case 102:
-                        _d.sent();
+                        _e.sent();
                         return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 6)];
                     case 103:
-                        _d.sent();
+                        _e.sent();
                         return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 7)];
                     case 104:
-                        _d.sent();
+                        _e.sent();
                         return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 8)];
                     case 105:
-                        _d.sent();
+                        _e.sent();
                         return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 9)];
                     case 106:
-                        _d.sent();
+                        _e.sent();
                         return [3 /*break*/, 124];
                     case 107:
                         this.capability = this.capabilities[1];
                         return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 0)];
                     case 108:
-                        _d.sent();
+                        _e.sent();
                         return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 1)];
                     case 109:
-                        _d.sent();
+                        _e.sent();
                         return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 2)];
                     case 110:
-                        _d.sent();
+                        _e.sent();
                         return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 3)];
                     case 111:
-                        _d.sent();
+                        _e.sent();
                         return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 5)];
                     case 112:
-                        _d.sent();
+                        _e.sent();
                         return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 6)];
                     case 113:
-                        _d.sent();
+                        _e.sent();
                         return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 7)];
                     case 114:
-                        _d.sent();
+                        _e.sent();
                         return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 8)];
                     case 115:
-                        _d.sent();
+                        _e.sent();
                         return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 9)];
                     case 116:
-                        _d.sent();
+                        _e.sent();
                         return [3 /*break*/, 124];
                     case 117:
                         this.capability = this.capabilities[2];
                         return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 0)];
                     case 118:
-                        _d.sent();
+                        _e.sent();
                         return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 1)];
                     case 119:
-                        _d.sent();
+                        _e.sent();
                         return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 2)];
                     case 120:
-                        _d.sent();
+                        _e.sent();
                         return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 3)];
                     case 121:
-                        _d.sent();
+                        _e.sent();
                         return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 4)];
                     case 122:
-                        _d.sent();
+                        _e.sent();
                         return [3 /*break*/, 124];
                     case 123:
                         {
                             this.capability = "";
                         }
-                        _d.label = 124;
+                        _e.label = 124;
                     case 124:
-                        switch (this.group4ClickInfo) {
+                        _d = this.group4ClickInfo;
+                        switch (_d) {
+                            case 1: return [3 /*break*/, 125];
+                            case 2: return [3 /*break*/, 133];
+                            case 3: return [3 /*break*/, 139];
+                            case 4: return [3 /*break*/, 148];
+                            case 5: return [3 /*break*/, 156];
+                            case 6: return [3 /*break*/, 166];
+                            case 7: return [3 /*break*/, 174];
+                            case 8: return [3 /*break*/, 180];
+                            case 9: return [3 /*break*/, 189];
+                            case 10: return [3 /*break*/, 197];
+                            case 11: return [3 /*break*/, 207];
+                            case 12: return [3 /*break*/, 215];
+                            case 13: return [3 /*break*/, 222];
+                            case 14: return [3 /*break*/, 228];
+                            case 15: return [3 /*break*/, 236];
+                            case 16: return [3 /*break*/, 246];
+                            case 100: return [3 /*break*/, 257];
                         }
+                        return [3 /*break*/, 258];
+                    case 125:
+                        this.function = this.functions[0];
+                        return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 0)];
+                    case 126:
+                        _e.sent();
+                        return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 1)];
+                    case 127:
+                        _e.sent();
+                        return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 2)];
+                    case 128:
+                        _e.sent();
+                        return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 3)];
+                    case 129:
+                        _e.sent();
+                        return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 5)];
+                    case 130:
+                        _e.sent();
+                        return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 6)];
+                    case 131:
+                        _e.sent();
+                        return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 7)];
+                    case 132:
+                        _e.sent();
+                        return [3 /*break*/, 258];
+                    case 133:
+                        this.function = this.functions[1];
+                        return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 0)];
+                    case 134:
+                        _e.sent();
+                        return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 1)];
+                    case 135:
+                        _e.sent();
+                        return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 5)];
+                    case 136:
+                        _e.sent();
+                        return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 6)];
+                    case 137:
+                        _e.sent();
+                        return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 7)];
+                    case 138:
+                        _e.sent();
+                        return [3 /*break*/, 258];
+                    case 139:
+                        this.function = this.functions[2];
+                        return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 0)];
+                    case 140:
+                        _e.sent();
+                        return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 1)];
+                    case 141:
+                        _e.sent();
+                        return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 4)];
+                    case 142:
+                        _e.sent();
+                        return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 5)];
+                    case 143:
+                        _e.sent();
+                        return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 6)];
+                    case 144:
+                        _e.sent();
+                        return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 7)];
+                    case 145:
+                        _e.sent();
+                        return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 8)];
+                    case 146:
+                        _e.sent();
+                        return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 9)];
+                    case 147:
+                        _e.sent();
+                        return [3 /*break*/, 258];
+                    case 148:
+                        this.function = this.functions[3];
+                        return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 0)];
+                    case 149:
+                        _e.sent();
+                        return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 1)];
+                    case 150:
+                        _e.sent();
+                        return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 5)];
+                    case 151:
+                        _e.sent();
+                        return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 6)];
+                    case 152:
+                        _e.sent();
+                        return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 7)];
+                    case 153:
+                        _e.sent();
+                        return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 8)];
+                    case 154:
+                        _e.sent();
+                        return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 9)];
+                    case 155:
+                        _e.sent();
+                        return [3 /*break*/, 258];
+                    case 156:
+                        this.function = this.functions[4];
+                        return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 0)];
+                    case 157:
+                        _e.sent();
+                        return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 1)];
+                    case 158:
+                        _e.sent();
+                        return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 2)];
+                    case 159:
+                        _e.sent();
+                        return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 3)];
+                    case 160:
+                        _e.sent();
+                        return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 4)];
+                    case 161:
+                        _e.sent();
+                        return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 5)];
+                    case 162:
+                        _e.sent();
+                        return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 6)];
+                    case 163:
+                        _e.sent();
+                        return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 7)];
+                    case 164:
+                        _e.sent();
+                        return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 8)];
+                    case 165:
+                        _e.sent();
+                        return [3 /*break*/, 258];
+                    case 166:
+                        this.function = this.functions[5];
+                        return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 1)];
+                    case 167:
+                        _e.sent();
+                        return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 2)];
+                    case 168:
+                        _e.sent();
+                        return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 3)];
+                    case 169:
+                        _e.sent();
+                        return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 5)];
+                    case 170:
+                        _e.sent();
+                        return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 6)];
+                    case 171:
+                        _e.sent();
+                        return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 8)];
+                    case 172:
+                        _e.sent();
+                        return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 9)];
+                    case 173:
+                        _e.sent();
+                        return [3 /*break*/, 258];
+                    case 174:
+                        this.function = this.functions[6];
+                        return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 0)];
+                    case 175:
+                        _e.sent();
+                        return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 3)];
+                    case 176:
+                        _e.sent();
+                        return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 4)];
+                    case 177:
+                        _e.sent();
+                        return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 6)];
+                    case 178:
+                        _e.sent();
+                        return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 7)];
+                    case 179:
+                        _e.sent();
+                        return [3 /*break*/, 258];
+                    case 180:
+                        this.function = this.functions[7];
+                        return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 0)];
+                    case 181:
+                        _e.sent();
+                        return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 1)];
+                    case 182:
+                        _e.sent();
+                        return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 4)];
+                    case 183:
+                        _e.sent();
+                        return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 5)];
+                    case 184:
+                        _e.sent();
+                        return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 6)];
+                    case 185:
+                        _e.sent();
+                        return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 7)];
+                    case 186:
+                        _e.sent();
+                        return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 8)];
+                    case 187:
+                        _e.sent();
+                        return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 9)];
+                    case 188:
+                        _e.sent();
+                        return [3 /*break*/, 258];
+                    case 189:
+                        this.function = this.functions[8];
+                        return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 0)];
+                    case 190:
+                        _e.sent();
+                        return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 1)];
+                    case 191:
+                        _e.sent();
+                        return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 4)];
+                    case 192:
+                        _e.sent();
+                        return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 5)];
+                    case 193:
+                        _e.sent();
+                        return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 6)];
+                    case 194:
+                        _e.sent();
+                        return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 7)];
+                    case 195:
+                        _e.sent();
+                        return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 8)];
+                    case 196:
+                        _e.sent();
+                        return [3 /*break*/, 258];
+                    case 197:
+                        this.function = this.functions[9];
+                        return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 0)];
+                    case 198:
+                        _e.sent();
+                        return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 2)];
+                    case 199:
+                        _e.sent();
+                        return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 3)];
+                    case 200:
+                        _e.sent();
+                        return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 4)];
+                    case 201:
+                        _e.sent();
+                        return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 5)];
+                    case 202:
+                        _e.sent();
+                        return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 6)];
+                    case 203:
+                        _e.sent();
+                        return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 7)];
+                    case 204:
+                        _e.sent();
+                        return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 8)];
+                    case 205:
+                        _e.sent();
+                        return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 9)];
+                    case 206:
+                        _e.sent();
+                        return [3 /*break*/, 258];
+                    case 207:
+                        this.function = this.functions[10];
+                        return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 0)];
+                    case 208:
+                        _e.sent();
+                        return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 4)];
+                    case 209:
+                        _e.sent();
+                        return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 5)];
+                    case 210:
+                        _e.sent();
+                        return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 6)];
+                    case 211:
+                        _e.sent();
+                        return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 7)];
+                    case 212:
+                        _e.sent();
+                        return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 8)];
+                    case 213:
+                        _e.sent();
+                        return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 9)];
+                    case 214:
+                        _e.sent();
+                        return [3 /*break*/, 258];
+                    case 215:
+                        this.function = this.functions[11];
+                        return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 0)];
+                    case 216:
+                        _e.sent();
+                        return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 1)];
+                    case 217:
+                        _e.sent();
+                        return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 2)];
+                    case 218:
+                        _e.sent();
+                        return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 3)];
+                    case 219:
+                        _e.sent();
+                        return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 4)];
+                    case 220:
+                        _e.sent();
+                        return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 7)];
+                    case 221:
+                        _e.sent();
+                        return [3 /*break*/, 258];
+                    case 222:
+                        this.function = this.functions[12];
+                        return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 0)];
+                    case 223:
+                        _e.sent();
+                        return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 3)];
+                    case 224:
+                        _e.sent();
+                        return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 4)];
+                    case 225:
+                        _e.sent();
+                        return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 6)];
+                    case 226:
+                        _e.sent();
+                        return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 7)];
+                    case 227:
+                        _e.sent();
+                        return [3 /*break*/, 258];
+                    case 228:
+                        this.function = this.functions[13];
+                        return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 0)];
+                    case 229:
+                        _e.sent();
+                        return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 1)];
+                    case 230:
+                        _e.sent();
+                        return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 2)];
+                    case 231:
+                        _e.sent();
+                        return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 3)];
+                    case 232:
+                        _e.sent();
+                        return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 4)];
+                    case 233:
+                        _e.sent();
+                        return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 6)];
+                    case 234:
+                        _e.sent();
+                        return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 7)];
+                    case 235:
+                        _e.sent();
+                        return [3 /*break*/, 258];
+                    case 236:
+                        this.function = this.functions[14];
+                        return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 0)];
+                    case 237:
+                        _e.sent();
+                        return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 1)];
+                    case 238:
+                        _e.sent();
+                        return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 2)];
+                    case 239:
+                        _e.sent();
+                        return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 3)];
+                    case 240:
+                        _e.sent();
+                        return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 4)];
+                    case 241:
+                        _e.sent();
+                        return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 5)];
+                    case 242:
+                        _e.sent();
+                        return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 6)];
+                    case 243:
+                        _e.sent();
+                        return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 7)];
+                    case 244:
+                        _e.sent();
+                        return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 9)];
+                    case 245:
+                        _e.sent();
+                        return [3 /*break*/, 258];
+                    case 246:
+                        this.function = this.functions[15];
+                        return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 0)];
+                    case 247:
+                        _e.sent();
+                        return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 1)];
+                    case 248:
+                        _e.sent();
+                        return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 2)];
+                    case 249:
+                        _e.sent();
+                        return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 3)];
+                    case 250:
+                        _e.sent();
+                        return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 4)];
+                    case 251:
+                        _e.sent();
+                        return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 5)];
+                    case 252:
+                        _e.sent();
+                        return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 6)];
+                    case 253:
+                        _e.sent();
+                        return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 7)];
+                    case 254:
+                        _e.sent();
+                        return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 8)];
+                    case 255:
+                        _e.sent();
+                        return [4 /*yield*/, this.elementRemover(visibleData, visibleImages, visibleTitles, visibleUrls, 9)];
+                    case 256:
+                        _e.sent();
+                        return [3 /*break*/, 258];
+                    case 257:
+                        {
+                            this.function = "";
+                        }
+                        _e.label = 258;
+                    case 258:
                         if (this.industry != "" && this.sector != "")
                             this.industry += " - ";
                         if (this.sector != "" && this.capability != "")
@@ -2016,7 +2454,11 @@ var NavbarComponent = /** @class */ (function () {
             'btn-default', 'btn-default', 'btn-default', 'btn-default', 'btn-default'
         ];
         this.btnStyleGroup3 = ['btn-default', 'btn-default', 'btn-default'];
-        this.btnStyleGroup4 = ['btn-default', 'btn-default', 'btn-default', 'btn-default', 'btn-default'];
+        this.btnStyleGroup4 = [
+            'btn-default', 'btn-default', 'btn-default', 'btn-default', 'btn-default', 'btn-default',
+            'btn-default', 'btn-default', 'btn-default', 'btn-default', 'btn-default', 'btn-default',
+            'btn-default', 'btn-default', 'btn-default', 'btn-default', 'btn-default'
+        ];
     }
     NavbarComponent.prototype.ngOnInit = function () {
         localStorage.clear();
