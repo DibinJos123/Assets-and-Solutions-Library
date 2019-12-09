@@ -835,10 +835,10 @@ var DashboardComponent = /** @class */ (function () {
         this.images = ["Group2_1.png", "Group2_2.png", "Group2_3.png", "Group2_4.png", "Group2_5.png",
             "Group2_6.png", "Group2_7.png", "Group2_8.png", "Group2_9.png", "Group2_10.png"
         ];
-        this.titles = ["KYC document digitization", "CONTRACT DIGITIZATION",
+        this.titles = ["KYC DOCUMENT DIGITISATION", "CONTRACT DIGITIZATION",
             "INVOICE/PURCHASE ORDER DIGITIZATION", "STANDARD SETTLEMENT INSTRUCTION (SSI) DIGITIZATION",
             "EMAIL INTERPRETATION, RESPONSE AND ROUTING", "CONNECTED SCM (SUPPLY CHAIN MANAGEMENT) ",
-            "Telecom_Asset", "EY OPS CHAIN ",
+            "TELECOM ASSET TRACKING", "EY OPS CHAIN ",
             " BLOCKCHAIN LOYALTY SOLUTION PLATFORM", "ASSET TRACKING "
         ];
         this.urls = ['kycdigitisation', 'contractdigitisation', 'invoicedigitisation', 'ssi', 'emailinterpretation', 'connectedscm', 'assettracking', 'opschain', 'loyaltysolution', 'assettracking'];
